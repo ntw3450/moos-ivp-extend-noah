@@ -1,0 +1,717 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_9_6_2020_____22_25_36/MOOSLog_9_6_2020_____22_25_36.alog
+%% FILE OPENED ON  Wed Dec 31 19:00:00 1969
+%% LOGSTART               1591755936.35
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.370           DB_EVENT             MOOSDB_apples   connected=pXRelay_APPLES 
+0.485           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=0.680011,cpuload=0.4215,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="",Subscribing="PEARS,PSHARE_CMD," 
+0.602           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_6_2020_____22_25_36 
+0.803           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=0.802624,cpuload=0.2958,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,",Subscribing="LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,",LogAuxSrc=false 
+1.924           DB_TIME              MOOSDB_apples   1591755938.27449 
+1.924           DB_UPTIME            MOOSDB_apples   2.32486      
+1.924           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+1.924           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:38.274         MOOSDB_apples        0.0 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:35.949         MOOSDB#1             0.0 Hz S  
+DB_RWSUMMARY         22:25:35.949         MOOSDB#1             0.0 Hz S  
+DB_TIME              22:25:38.274         MOOSDB_apples        0.0 Hz D  1591755938.3
+DB_UPTIME            22:25:38.274         MOOSDB_apples        0.0 Hz D  2.3
+DB_VARSUMMARY        22:25:35.949         MOOSDB#1             0.0 Hz S  
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:37.153         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:37.846         pShare               0.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:37.846         pShare               0.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:36.835         pShare               0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+1.924           DB_QOS               MOOSDB_apples   pLogger=0:0.152826:0.117064:0,pShare=0:0.194073:0.163078:0,pXRelay_APPLES=0:0.142813:0.101089:0, 
+1.924           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&,pLogger=DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+0.370           DB_EVENT             MOOSDB_apples   connected=pXRelay_APPLES 
+0.485           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=0.680011,cpuload=0.4215,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="",Subscribing="PEARS,PSHARE_CMD," 
+0.602           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_6_2020_____22_25_36 
+0.803           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=0.802624,cpuload=0.2958,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,",Subscribing="LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PLOGGER_CMD,",LogAuxSrc=false 
+1.496           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+1.496           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+1.924           PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=1.65656,cpuload=0.08792,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="",Subscribing="APPLES," 
+1.924           DB_TIME              MOOSDB_apples   1591755938.27449 
+1.924           DB_UPTIME            MOOSDB_apples   2.32486      
+1.924           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+1.924           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:38.274         MOOSDB_apples        0.0 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:35.949         MOOSDB#1             0.0 Hz S  
+DB_RWSUMMARY         22:25:35.949         MOOSDB#1             0.0 Hz S  
+DB_TIME              22:25:38.274         MOOSDB_apples        0.0 Hz D  1591755938.3
+DB_UPTIME            22:25:38.274         MOOSDB_apples        0.0 Hz D  2.3
+DB_VARSUMMARY        22:25:35.949         MOOSDB#1             0.0 Hz S  
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:37.153         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:37.846         pShare               0.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:37.846         pShare               0.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:36.835         pShare               0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+1.924           DB_QOS               MOOSDB_apples   pLogger=0:0.152826:0.117064:0,pShare=0:0.194073:0.163078:0,pXRelay_APPLES=0:0.142813:0.101089:0, 
+1.924           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&,pLogger=DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+2.491           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=2.68601,cpuload=0.1732,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+2.519           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+2.519           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+2.812           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=2.81188,cpuload=0.1932,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+0.370           DB_EVENT             MOOSDB_apples   connected=pXRelay_APPLES 
+0.602           LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_6_2020_____22_25_36 
+1.924           PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=1.65656,cpuload=0.08792,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="",Subscribing="APPLES," 
+1.924           DB_TIME              MOOSDB_apples   1591755938.27449 
+1.924           DB_UPTIME            MOOSDB_apples   2.32486      
+1.924           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+1.924           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:38.274         MOOSDB_apples        0.0 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:35.949         MOOSDB#1             0.0 Hz S  
+DB_RWSUMMARY         22:25:35.949         MOOSDB#1             0.0 Hz S  
+DB_TIME              22:25:38.274         MOOSDB_apples        0.0 Hz D  1591755938.3
+DB_UPTIME            22:25:38.274         MOOSDB_apples        0.0 Hz D  2.3
+DB_VARSUMMARY        22:25:35.949         MOOSDB#1             0.0 Hz S  
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:37.153         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:37.846         pShare               0.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:37.846         pShare               0.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:36.835         pShare               0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+1.924           DB_QOS               MOOSDB_apples   pLogger=0:0.152826:0.117064:0,pShare=0:0.194073:0.163078:0,pXRelay_APPLES=0:0.142813:0.101089:0, 
+1.924           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&,pLogger=DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+2.491           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=2.68601,cpuload=0.1732,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+2.519           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+2.519           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+2.812           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=2.81188,cpuload=0.1932,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+2.925           PEARS_ITER_HZ        pXRelay_APPLES  1.99706      
+3.526           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+3.526           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+3.926           PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=3.65888,cpuload=0.06902,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+3.926           PEARS_ITER_HZ        pXRelay_APPLES  1.49826      
+3.926           DB_TIME              MOOSDB_apples   1591755940.27685 
+3.926           DB_UPTIME            MOOSDB_apples   4.32721      
+3.926           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+3.926           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:40.276         MOOSDB_apples        0.2 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:38.274         MOOSDB_apples        0.0 Hz S  pLogger=0:0.152826:0.1...
+DB_RWSUMMARY         22:25:38.274         MOOSDB_apples        0.0 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:40.276         MOOSDB_apples        0.2 Hz D  1591755940.3
+DB_UPTIME            22:25:40.276         MOOSDB_apples        0.2 Hz D  4.3
+DB_VARSUMMARY        22:25:38.274         MOOSDB_apples        0.0 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:40.276         pXRelay_APPLES       0.5 Hz D  1.5
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:39.162         pLogger              0.2 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:39.876         pShare               0.7 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:39.876         pShare               0.7 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:38.841         pShare               0.2 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:40.276         pXRelay_APPLES       0.2 Hz S  AppErrorFlag=false,Upt...
+ 
+3.926           DB_QOS               MOOSDB_apples   pLogger=0:0.222206:0.113964:0,pShare=0:0.194073:0.0908375:0,pXRelay_APPLES=0:0.142813:0.0779629:0, 
+3.926           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+4.496           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=4.69143,cpuload=0.2087,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+4.547           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+4.547           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+4.839           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=4.83946,cpuload=0.1202,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+4.926           PEARS_ITER_HZ        pXRelay_APPLES  1.33217      
+5.549           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+5.549           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+5.928           PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=5.66142,cpuload=0.1022,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+5.928           PEARS_ITER_HZ        pXRelay_APPLES  1.24848      
+5.929           DB_TIME              MOOSDB_apples   1591755942.27940 
+5.929           DB_UPTIME            MOOSDB_apples   6.32976      
+5.929           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+5.929           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:42.279         MOOSDB_apples        0.4 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:40.276         MOOSDB_apples        0.2 Hz S  pLogger=0:0.222206:0.1...
+DB_RWSUMMARY         22:25:40.276         MOOSDB_apples        0.2 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:42.279         MOOSDB_apples        0.4 Hz D  1591755942.3
+DB_UPTIME            22:25:42.279         MOOSDB_apples        0.4 Hz D  6.3
+DB_VARSUMMARY        22:25:40.276         MOOSDB_apples        0.2 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:42.279         pXRelay_APPLES       0.9 Hz D  1.2
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:41.190         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:41.900         pShare               0.9 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:41.899         pShare               0.9 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:40.846         pShare               0.4 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:42.279         pXRelay_APPLES       0.4 Hz S  AppErrorFlag=false,Upt...
+ 
+5.929           DB_QOS               MOOSDB_apples   pLogger=0.0839233:0.222206:0.0839233:0.137997,pShare=0.154972:0.194073:0.0908375:0.147009,pXRelay_APPLES=0.112057:0.142813:0.0779629:0.103378, 
+5.929           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+6.509           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=6.7043,cpuload=0.1827,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+6.560           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+6.560           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+6.857           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=6.85706,cpuload=0.1035,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+6.929           PEARS_ITER_HZ        pXRelay_APPLES  1.19867      
+7.585           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+7.585           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+7.933           PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=7.6657,cpuload=0.06494,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+7.933           PEARS_ITER_HZ        pXRelay_APPLES  1.16489      
+7.933           DB_TIME              MOOSDB_apples   1591755944.28369 
+7.933           DB_UPTIME            MOOSDB_apples   8.33406      
+7.933           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+7.933           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:44.283         MOOSDB_apples        0.4 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:42.279         MOOSDB_apples        0.4 Hz S  pLogger=0.0839233:0.22...
+DB_RWSUMMARY         22:25:42.279         MOOSDB_apples        0.4 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:44.283         MOOSDB_apples        0.4 Hz D  1591755944.3
+DB_UPTIME            22:25:44.283         MOOSDB_apples        0.4 Hz D  8.3
+DB_VARSUMMARY        22:25:42.279         MOOSDB_apples        0.4 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:44.283         pXRelay_APPLES       1.0 Hz D  1.2
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:43.207         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:43.935         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:43.935         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:42.859         pShare               0.4 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:44.283         pXRelay_APPLES       0.4 Hz S  AppErrorFlag=false,Upt...
+ 
+7.933           DB_QOS               MOOSDB_apples   pLogger=0.0841618:0.222206:0.0729561:0.138044,pShare=0.108004:0.194073:0.0908375:0.137615,pXRelay_APPLES=0.113964:0.142813:0.0779629:0.10376, 
+7.933           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+8.516           PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=8.71177,cpuload=0.2074,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+8.596           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+8.596           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+8.869           PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=8.86891,cpuload=0.1377,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+8.933           PEARS_ITER_HZ        pXRelay_APPLES  1.14131      
+9.597           PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+9.597           PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+9.936           PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=9.66887,cpuload=0.05616,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+9.936           PEARS_ITER_HZ        pXRelay_APPLES  1.12327      
+9.936           DB_TIME              MOOSDB_apples   1591755946.28681 
+9.936           DB_UPTIME            MOOSDB_apples   10.33718     
+9.936           DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+9.936           DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:46.286         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:44.283         MOOSDB_apples        0.4 Hz S  pLogger=0.0841618:0.22...
+DB_RWSUMMARY         22:25:44.283         MOOSDB_apples        0.4 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:46.286         MOOSDB_apples        0.5 Hz D  1591755946.3
+DB_UPTIME            22:25:46.286         MOOSDB_apples        0.5 Hz D  10.3
+DB_VARSUMMARY        22:25:44.283         MOOSDB_apples        0.4 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:36.952         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:46.286         pXRelay_APPLES       1.0 Hz D  1.1
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:45.219         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:45.948         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:45.948         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:44.867         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:46.286         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+9.936           DB_QOS               MOOSDB_apples   pLogger=0.132084:0.222206:0.0729561:0.147629,pShare=0.136137:0.194073:0.0908375:0.143242,pXRelay_APPLES=0.079155:0.142813:0.0710487:0.0967979, 
+9.936           DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+10.081          LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_6_2020_____22_25_36 
+10.528          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=10.7237,cpuload=0.1412,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+10.604          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+10.605          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+10.883          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=10.8829,cpuload=0.1386,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+10.937          PEARS_ITER_HZ        pXRelay_APPLES  1.10944      
+11.605          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+11.605          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+11.938          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=11.6714,cpuload=0.06958,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+11.938          PEARS_ITER_HZ        pXRelay_APPLES  1.09837      
+11.939          DB_TIME              MOOSDB_apples   1591755948.28944 
+11.939          DB_UPTIME            MOOSDB_apples   12.33981     
+11.939          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+11.939          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:48.289         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:46.286         MOOSDB_apples        0.5 Hz S  pLogger=0.132084:0.222...
+DB_RWSUMMARY         22:25:46.286         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:48.289         MOOSDB_apples        0.5 Hz D  1591755948.3
+DB_UPTIME            22:25:48.289         MOOSDB_apples        0.5 Hz D  12.3
+DB_VARSUMMARY        22:25:46.286         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:46.432         pLogger              0.1 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:48.289         pXRelay_APPLES       1.0 Hz D  1.1
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:47.233         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:47.955         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:47.955         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:46.879         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:48.289         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+11.939          DB_QOS               MOOSDB_apples   pLogger=0.185966:0.222206:0.0729561:0.158405,pShare=0.133991:0.194073:0.0908375:0.142813,pXRelay_APPLES=0.195026:0.195026:0.0710487:0.119972, 
+11.939          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+12.532          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=12.7276,cpuload=0.2265,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+12.609          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+12.609          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+12.892          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=12.892,cpuload=0.1919,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+12.939          PEARS_ITER_HZ        pXRelay_APPLES  1.08936      
+13.610          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+13.610          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+13.940          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=13.6733,cpuload=0.06915,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+13.940          PEARS_ITER_HZ        pXRelay_APPLES  1.08182      
+13.941          DB_TIME              MOOSDB_apples   1591755950.29135 
+13.941          DB_UPTIME            MOOSDB_apples   14.34172     
+13.941          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+13.941          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:50.291         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:48.289         MOOSDB_apples        0.5 Hz S  pLogger=0.185966:0.222...
+DB_RWSUMMARY         22:25:48.289         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:50.291         MOOSDB_apples        0.5 Hz D  1591755950.3
+DB_UPTIME            22:25:50.291         MOOSDB_apples        0.5 Hz D  14.3
+DB_VARSUMMARY        22:25:48.289         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:46.432         pLogger              0.1 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:50.291         pXRelay_APPLES       1.0 Hz D  1.1
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:49.243         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:49.961         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:49.961         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:48.883         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:50.291         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+13.941          DB_QOS               MOOSDB_apples   pLogger=0.157118:0.222206:0.0729561:0.152636,pShare=0.0610352:0.194073:0.0610352:0.128222,pXRelay_APPLES=0.152111:0.257969:0.0710487:0.111389, 
+13.941          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+14.533          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=14.7282,cpuload=0.1694,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+14.612          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+14.612          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+14.899          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=14.8993,cpuload=0.1706,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+14.941          PEARS_ITER_HZ        pXRelay_APPLES  1.07546      
+15.635          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+15.635          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+15.942          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=15.675,cpuload=0.06927,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+15.942          PEARS_ITER_HZ        pXRelay_APPLES  1.07002      
+15.942          DB_TIME              MOOSDB_apples   1591755952.29298 
+15.942          DB_UPTIME            MOOSDB_apples   16.34334     
+15.942          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+15.942          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:52.292         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:50.291         MOOSDB_apples        0.5 Hz S  pLogger=0.157118:0.222...
+DB_RWSUMMARY         22:25:50.291         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:52.292         MOOSDB_apples        0.5 Hz D  1591755952.3
+DB_UPTIME            22:25:52.292         MOOSDB_apples        0.5 Hz D  16.3
+DB_VARSUMMARY        22:25:50.291         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:46.432         pLogger              0.1 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:52.292         pXRelay_APPLES       1.0 Hz D  1.1
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:51.250         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:51.985         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:51.985         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:50.883         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:52.292         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+15.942          DB_QOS               MOOSDB_apples   pLogger=0.084877:0.222206:0.0729561:0.138187,pShare=0.0600815:0.194073:0.056982:0.128031,pXRelay_APPLES=0.118017:0.257969:0.0710487:0.10457, 
+15.942          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+16.534          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=16.7295,cpuload=0.1757,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+16.640          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+16.640          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+16.912          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=16.9119,cpuload=0.1273,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+16.942          PEARS_ITER_HZ        pXRelay_APPLES  1.06535      
+17.666          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+17.666          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+17.942          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=17.6752,cpuload=0.08484,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+17.942          PEARS_ITER_HZ        pXRelay_APPLES  1.06126      
+17.942          DB_TIME              MOOSDB_apples   1591755954.29316 
+17.942          DB_UPTIME            MOOSDB_apples   18.34352     
+17.942          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+17.942          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:54.293         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:52.293         MOOSDB_apples        0.5 Hz S  pLogger=0.084877:0.222...
+DB_RWSUMMARY         22:25:52.293         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:54.293         MOOSDB_apples        0.5 Hz D  1591755954.3
+DB_UPTIME            22:25:54.293         MOOSDB_apples        0.5 Hz D  18.3
+DB_VARSUMMARY        22:25:52.293         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:46.432         pLogger              0.1 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:54.293         pXRelay_APPLES       1.0 Hz D  1.1
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:53.262         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:54.016         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:54.016         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:52.884         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:54.293         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+17.942          DB_QOS               MOOSDB_apples   pLogger=0.0851154:0.222206:0.0729561:0.138235,pShare=0.106096:0.194073:0.056982:0.137234,pXRelay_APPLES=0.11301:0.257969:0.0710487:0.103569, 
+17.943          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+18.551          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=18.7464,cpuload=0.1563,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+18.688          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+18.688          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+18.929          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=18.9286,cpuload=0.1083,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+18.947          PEARS_ITER_HZ        pXRelay_APPLES  1.05735      
+19.696          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+19.696          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+19.948          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=19.6813,cpuload=0.06817,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+19.948          PEARS_ITER_HZ        pXRelay_APPLES  1.05411      
+19.948          DB_TIME              MOOSDB_apples   1591755956.29925 
+19.948          DB_UPTIME            MOOSDB_apples   20.34961     
+19.948          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+19.949          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:56.299         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:54.293         MOOSDB_apples        0.5 Hz S  pLogger=0.0851154:0.22...
+DB_RWSUMMARY         22:25:54.293         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:56.299         MOOSDB_apples        0.5 Hz D  1591755956.3
+DB_UPTIME            22:25:56.299         MOOSDB_apples        0.5 Hz D  20.3
+DB_VARSUMMARY        22:25:54.293         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:46.432         pLogger              0.1 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:56.299         pXRelay_APPLES       1.0 Hz D  1.1
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:55.279         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:56.047         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:56.047         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:54.901         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:56.299         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+19.949          DB_QOS               MOOSDB_apples   pLogger=0.129938:0.222206:0.0729561:0.1472,pShare=0.127077:0.194073:0.056982:0.14143,pXRelay_APPLES=0.0658035:0.257969:0.0591278:0.0941277, 
+19.949          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+20.137          LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_6_2020_____22_25_36 
+20.561          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=20.7566,cpuload=0.1951,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+20.717          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+20.717          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+20.945          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=20.9452,cpuload=0.1581,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+20.949          PEARS_ITER_HZ        pXRelay_APPLES  1.05123      
+21.722          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+21.722          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+21.950          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=21.683,cpuload=0.05174,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+21.950          PEARS_ITER_HZ        pXRelay_APPLES  1.04861      
+21.950          DB_TIME              MOOSDB_apples   1591755958.30089 
+21.950          DB_UPTIME            MOOSDB_apples   22.35126     
+21.950          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+21.950          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:25:58.300         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:56.299         MOOSDB_apples        0.5 Hz S  pLogger=0.129938:0.222...
+DB_RWSUMMARY         22:25:56.299         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:25:58.300         MOOSDB_apples        0.5 Hz D  1591755958.3
+DB_UPTIME            22:25:58.300         MOOSDB_apples        0.5 Hz D  22.4
+DB_VARSUMMARY        22:25:56.299         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:56.488         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:25:58.300         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:57.296         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:25:58.072         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:25:58.072         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:56.912         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:25:58.300         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+21.950          DB_QOS               MOOSDB_apples   pLogger=0.110865:0.222206:0.0729561:0.143385,pShare=0.153065:0.194073:0.056982:0.146627,pXRelay_APPLES=0.054121:0.257969:0.054121:0.0917912, 
+21.950          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+22.566          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=22.7613,cpuload=0.1454,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+22.744          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+22.744          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+22.951          PEARS_ITER_HZ        pXRelay_APPLES  1.04627      
+22.959          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=22.9586,cpuload=0.07474,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+23.751          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+23.751          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+23.955          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=23.6882,cpuload=0.05739,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+23.955          PEARS_ITER_HZ        pXRelay_APPLES  1.04395      
+23.955          DB_TIME              MOOSDB_apples   1591755960.30613 
+23.955          DB_UPTIME            MOOSDB_apples   24.35650     
+23.955          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+23.955          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:00.306         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:25:58.300         MOOSDB_apples        0.5 Hz S  pLogger=0.110865:0.222...
+DB_RWSUMMARY         22:25:58.301         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:00.306         MOOSDB_apples        0.5 Hz D  1591755960.3
+DB_UPTIME            22:26:00.306         MOOSDB_apples        0.5 Hz D  24.4
+DB_VARSUMMARY        22:25:58.300         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:56.488         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:00.306         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:25:59.309         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:00.101         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:00.101         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:25:58.916         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:00.306         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+23.955          DB_QOS               MOOSDB_apples   pLogger=0.145912:0.222206:0.0729561:0.150394,pShare=0.129938:0.194073:0.056982:0.142002,pXRelay_APPLES=0.0970364:0.257969:0.054121:0.100374, 
+23.956          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+24.579          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=24.7747,cpuload=0.1413,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+24.757          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+24.757          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+24.956          PEARS_ITER_HZ        pXRelay_APPLES  1.04202      
+24.970          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=24.9696,cpuload=0.1084,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+25.771          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+25.771          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+25.957          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=25.6898,cpuload=0.05383,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+25.957          PEARS_ITER_HZ        pXRelay_APPLES  1.04022      
+25.957          DB_TIME              MOOSDB_apples   1591755962.30777 
+25.957          DB_UPTIME            MOOSDB_apples   26.35814     
+25.957          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+25.957          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:02.307         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:26:00.306         MOOSDB_apples        0.5 Hz S  pLogger=0.145912:0.222...
+DB_RWSUMMARY         22:26:00.306         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:02.307         MOOSDB_apples        0.5 Hz D  1591755962.3
+DB_UPTIME            22:26:02.307         MOOSDB_apples        0.5 Hz D  26.4
+DB_VARSUMMARY        22:26:00.306         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:56.488         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:02.307         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:26:01.320         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:02.121         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:02.121         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:26:00.930         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:02.307         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+25.957          DB_QOS               MOOSDB_apples   pLogger=0.0829697:0.222206:0.0729561:0.137806,pShare=0.0810623:0.194073:0.056982:0.132227,pXRelay_APPLES=0.084877:0.257969:0.054121:0.0979424, 
+25.957          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+26.585          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=26.7801,cpuload=0.1151,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+26.790          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+26.790          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+26.957          PEARS_ITER_HZ        pXRelay_APPLES  1.03860      
+26.996          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=26.9964,cpuload=0.1066,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+27.801          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+27.801          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+27.958          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=27.6909,cpuload=0.08648,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+27.958          PEARS_ITER_HZ        pXRelay_APPLES  1.03709      
+27.958          DB_TIME              MOOSDB_apples   1591755964.30890 
+27.958          DB_UPTIME            MOOSDB_apples   28.35926     
+27.958          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+27.958          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:04.308         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:26:02.307         MOOSDB_apples        0.5 Hz S  pLogger=0.0829697:0.22...
+DB_RWSUMMARY         22:26:02.307         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:04.308         MOOSDB_apples        0.5 Hz D  1591755964.3
+DB_UPTIME            22:26:04.308         MOOSDB_apples        0.5 Hz D  28.4
+DB_VARSUMMARY        22:26:02.307         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:56.488         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:04.308         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:26:03.347         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:04.151         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:04.151         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:26:02.935         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:04.308         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+27.958          DB_QOS               MOOSDB_apples   pLogger=0.131845:0.222206:0.0708103:0.147581,pShare=0.104904:0.194073:0.056982:0.136995,pXRelay_APPLES=0.121117:0.257969:0.054121:0.10519, 
+27.958          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+28.593          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=28.7884,cpuload=0.1565,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+28.826          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+28.826          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+28.959          PEARS_ITER_HZ        pXRelay_APPLES  1.03570      
+29.013          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=29.0132,cpuload=0.08374,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+29.839          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+29.839          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+29.959          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=29.6924,cpuload=0.07119,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+29.959          PEARS_ITER_HZ        pXRelay_APPLES  1.03439      
+29.960          DB_TIME              MOOSDB_apples   1591755966.31031 
+29.960          DB_UPTIME            MOOSDB_apples   30.36067     
+29.960          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+29.960          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:06.310         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:26:04.308         MOOSDB_apples        0.5 Hz S  pLogger=0.131845:0.222...
+DB_RWSUMMARY         22:26:04.309         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:06.310         MOOSDB_apples        0.5 Hz D  1591755966.3
+DB_UPTIME            22:26:06.310         MOOSDB_apples        0.5 Hz D  30.4
+DB_VARSUMMARY        22:26:04.308         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:25:56.488         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:06.310         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:26:05.364         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:06.189         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:06.189         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:26:04.943         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:06.310         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+29.960          DB_QOS               MOOSDB_apples   pLogger=0.111103:0.222206:0.0708103:0.143433,pShare=0.0860691:0.194073:0.056982:0.133228,pXRelay_APPLES=0.082016:0.257969:0.054121:0.0973701, 
+29.960          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+30.222          LOGGER_DIRECTORY     pLogger         ./MOOSLog_9_6_2020_____22_25_36 
+30.611          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=30.8062,cpuload=0.1559,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+30.847          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+30.847          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+30.960          PEARS_ITER_HZ        pXRelay_APPLES  1.03319      
+31.024          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=31.0245,cpuload=0.1084,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+31.850          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+31.850          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+31.961          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=31.6937,cpuload=0.06132,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+31.961          PEARS_ITER_HZ        pXRelay_APPLES  1.03206      
+31.961          DB_TIME              MOOSDB_apples   1591755968.31164 
+31.961          DB_UPTIME            MOOSDB_apples   32.36201     
+31.961          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+31.961          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:08.311         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:26:06.310         MOOSDB_apples        0.5 Hz S  pLogger=0.111103:0.222...
+DB_RWSUMMARY         22:26:06.310         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:08.311         MOOSDB_apples        0.5 Hz D  1591755968.3
+DB_UPTIME            22:26:08.311         MOOSDB_apples        0.5 Hz D  32.4
+DB_VARSUMMARY        22:26:06.310         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:26:06.573         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:08.311         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:26:07.375         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:08.200         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:08.200         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:26:06.961         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:08.311         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+31.961          DB_QOS               MOOSDB_apples   pLogger=0.120163:0.222206:0.0708103:0.145245,pShare=0.111103:0.194073:0.056982:0.138235,pXRelay_APPLES=0.123978:0.257969:0.054121:0.105762, 
+31.961          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+32.636          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=32.8317,cpuload=0.1607,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+32.877          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+32.877          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+32.961          PEARS_ITER_HZ        pXRelay_APPLES  1.03102      
+33.044          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=33.0438,cpuload=0.12,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+33.894          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+33.894          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+33.961          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=33.6939,cpuload=0.05974,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+33.961          PEARS_ITER_HZ        pXRelay_APPLES  1.03005      
+33.961          DB_TIME              MOOSDB_apples   1591755970.31191 
+33.961          DB_UPTIME            MOOSDB_apples   34.36228     
+33.961          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+33.961          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:10.311         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:26:08.311         MOOSDB_apples        0.5 Hz S  pLogger=0.120163:0.222...
+DB_RWSUMMARY         22:26:08.311         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:10.311         MOOSDB_apples        0.5 Hz D  1591755970.3
+DB_UPTIME            22:26:10.311         MOOSDB_apples        0.5 Hz D  34.4
+DB_VARSUMMARY        22:26:08.311         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:26:06.573         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:10.311         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:26:09.394         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:10.245         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:10.245         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:26:08.987         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:10.311         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+33.961          DB_QOS               MOOSDB_apples   pLogger=0.0748634:0.222206:0.0708103:0.136185,pShare=0.108957:0.194073:0.056982:0.137806,pXRelay_APPLES=0.117064:0.257969:0.054121:0.10438, 
+33.961          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+34.658          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=34.8533,cpuload=0.1383,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+34.912          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+34.912          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+34.962          PEARS_ITER_HZ        pXRelay_APPLES  1.02912      
+35.060          PLOGGER_STATUS       pLogger         AppErrorFlag=false,Uptime=35.0602,cpuload=0.0824,memory_kb=4672,memory_max_kb=4808,MOOSName=pLogger,Publishing="LOGGER_DIRECTORY,PLOGGER_STATUS,",Subscribing="APPLES,DB_CLIENTS,DB_EVENT,DB_QOS,DB_RWSUMMARY,DB_TIME,DB_UPTIME,DB_VARSUMMARY,LOGGER_DIRECTORY,LOGGER_RESTART,MOOS_DEBUG,MOOS_SYSTEM,PEARS,PEARS_ITER_HZ,PLOGGER_CMD,PLOGGER_STATUS,PSHARE_CMD,PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,PXRELAY_APPLES_STATUS,",LogAuxSrc=false 
+35.912          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+35.912          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+35.963          PXRELAY_APPLES_STATUS pXRelay_APPLES  AppErrorFlag=false,Uptime=35.6958,cpuload=0.06738,memory_kb=4472,memory_max_kb=6124,MOOSName=pXRelay_APPLES,Publishing="PEARS_ITER_HZ,PXRELAY_APPLES_STATUS,",Subscribing="APPLES," 
+35.963          PEARS_ITER_HZ        pXRelay_APPLES  1.02822      
+35.963          DB_TIME              MOOSDB_apples   1591755972.31379 
+35.963          DB_UPTIME            MOOSDB_apples   36.36415     
+35.963          DB_CLIENTS           MOOSDB_apples   pXRelay_APPLES,pLogger,pShare, 
+35.963          DB_VARSUMMARY        MOOSDB_apples   APPLES               18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           22:26:12.313         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES,pLogger...
+DB_EVENT             22:25:36.720         MOOSDB_apples        0.0 Hz S  connected=pXRelay_APPLES
+DB_QOS               22:26:10.312         MOOSDB_apples        0.5 Hz S  pLogger=0.0748634:0.22...
+DB_RWSUMMARY         22:26:10.312         MOOSDB_apples        0.5 Hz S  pXRelay_APPLES=APPLES&...
+DB_TIME              22:26:12.313         MOOSDB_apples        0.5 Hz D  1591755972.3
+DB_UPTIME            22:26:12.313         MOOSDB_apples        0.5 Hz D  36.4
+DB_VARSUMMARY        22:26:10.312         MOOSDB_apples        0.5 Hz S  APPLES               1...
+LOGGER_DIRECTORY     22:26:06.573         pLogger              0.0 Hz S  ./MOOSLog_9_6_2020____...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS                18:59:59.000         (write pending)      0.0 Hz ~  
+PEARS_ITER_HZ        22:26:12.313         pXRelay_APPLES       1.0 Hz D  1.0
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       22:26:11.411         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PSHARE_CMD           18:59:59.000         (write pending)      0.0 Hz ~  
+PSHARE_INPUT_SUMMARY 22:26:12.263         pShare               1.0 Hz S  localhost:9201
+PSHARE_OUTPUT_SUMMARY 22:26:12.263         pShare               1.0 Hz S  PEARS->PEARS:localhost...
+PSHARE_STATUS        22:26:11.008         pShare               0.5 Hz S  AppErrorFlag=false,Upt...
+PXRELAY_APPLES_STATUS 22:26:12.313         pXRelay_APPLES       0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+35.963          DB_QOS               MOOSDB_apples   pLogger=0.174046:0.222206:0.0708103:0.156021,pShare=0.104904:0.194073:0.056982:0.136995,pXRelay_APPLES=0.0991821:0.257969:0.054121:0.100803, 
+35.963          DB_RWSUMMARY         MOOSDB_apples   pXRelay_APPLES=APPLES&PEARS_ITER_HZ:PXRELAY_APPLES_STATUS,pLogger=APPLES:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:PEARS:PEARS_ITER_HZ:PLOGGER_CMD:PLOGGER_STATUS:PSHARE_CMD:PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS:PXRELAY_APPLES_STATUS&LOGGER_DIRECTORY:PLOGGER_STATUS,pShare=PEARS:PSHARE_CMD&PSHARE_INPUT_SUMMARY:PSHARE_OUTPUT_SUMMARY:PSHARE_STATUS 
+36.672          PSHARE_STATUS        pShare          AppErrorFlag=false,Uptime=36.8672,cpuload=0.1969,memory_kb=4272,memory_max_kb=4420,MOOSName=pShare,Publishing="PSHARE_INPUT_SUMMARY,PSHARE_OUTPUT_SUMMARY,PSHARE_STATUS,",Subscribing="PEARS,PSHARE_CMD," 
+36.933          PSHARE_OUTPUT_SUMMARY pShare          PEARS->PEARS:localhost:9200 
+36.933          PSHARE_INPUT_SUMMARY pShare          localhost:9201 
+36.964          PEARS_ITER_HZ        pXRelay_APPLES  1.02737      
