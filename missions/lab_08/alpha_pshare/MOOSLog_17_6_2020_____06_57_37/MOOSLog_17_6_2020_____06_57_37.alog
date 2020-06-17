@@ -1,0 +1,990 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_17_6_2020_____06_57_37/MOOSLog_17_6_2020_____06_57_37.alog
+%% FILE OPENED ON  Wed Dec 31 19:00:00 1969
+%% LOGSTART               1592391457.32
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-317.223        PMARINEVIEWER_PID    pMarineViewer   3483.00000   
+-316.972        HELM_MAP_CLEAR       pMarineViewer   0.00000      
+-316.972        PMV_CONNECT          pMarineViewer   0.00000      
+-308.963        APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+-308.963        APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        DEPLOY               pMarineViewer   true 
+-308.963        MOOS_MANUAL_OVERRIDE pMarineViewer   false 
+-308.963        RETURN               pMarineViewer   false 
+-307.962        PMARINEVIEWER_ITER_GAP pMarineViewer   1.00047      
+-307.962        PMARINEVIEWER_ITER_LEN pMarineViewer   0.00006      
+-307.962        APPCAST              pMarineViewer   proc=pMarineViewer!@#iter=37!@#node=shoreside!@#iter=37!@#messages=Tiff File A:      /home/noah/moos-ivp/ivp/data/forrest19.tif!@Info File A:      /home/noah/moos-ivp/ivp/data/forrest19.info!@Tiff File B:      !@Info File B:      !@------------------!@Total GeoShapes:  0!@Clear GeoShapes:  0!@NodeReports Recd: 0!@NodeReport Index: 0!@------------------!@AC Iterations:    37!@PMV Iterations:   36!@Draw Count:       75!@Draw Count Rate:  8.12854!@Curr Time:        1592391149.11!@Time Warp:        1.000!@Stale report thresh: 60!@Stale remove thresh: 180!@Elapsed:          0.00002!@CmdFolio size:    0!@!@Visual Settings: !@  pan_x:   -90.00!@  pan_y:   -280.00!@  zoom :   0.65!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+-0.944          DB_TIME              MOOSDB_shoreside 1592391456.37763 
+-0.944          DB_UPTIME            MOOSDB_shoreside 317.25398    
+-0.944          DB_CLIENTS           MOOSDB_shoreside pShare, 
+-0.944          DB_QOS               MOOSDB_shoreside pShare=0.113964:0.218868:0.0391006:0.160742, 
+0.065           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+0.065           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+0.652           LOGGER_DIRECTORY     pLogger         ./MOOSLog_17_6_2020_____06_57_37 
+0.703           DB_EVENT             MOOSDB_shoreside connected=pHelmIvP 
+0.703           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+0.900           DB_EVENT             MOOSDB_shoreside connected=uProcessWatch 
+1.053           MOOS_DEBUG           pMarinePID      ** NEW CONTROLLER GAINS ARE ** 
+1.053           MOOS_DEBUG           pMarinePID      YAW_PID_KP             = 1.200 
+1.053           MOOS_DEBUG           pMarinePID      YAW_PID_KD             = 0.000 
+1.053           MOOS_DEBUG           pMarinePID      YAW_PID_KI             = 0.300 
+1.053           MOOS_DEBUG           pMarinePID      YAW_PID_INTEGRAL_LIMIT = 0.070 
+1.053           MOOS_DEBUG           pMarinePID      MAXRUDDER              = 100.000 
+1.055           MOOS_DEBUG           pMarinePID      SPEED_PID_KP           = 1.000 
+1.055           MOOS_DEBUG           pMarinePID      SPEED_PID_KD           = 0.000 
+1.055           MOOS_DEBUG           pMarinePID      SPEED_PID_KI           = 0.000 
+1.055           MOOS_DEBUG           pMarinePID      SPEED_PID_INTEGRAL_LIMIT = 0.070 
+1.055           MOOS_DEBUG           pMarinePID      MAXTHRUST              = 100.000 
+1.064           DB_TIME              MOOSDB_shoreside 1592391458.38594 
+1.064           DB_UPTIME            MOOSDB_shoreside 319.26228    
+1.064           DB_CLIENTS           MOOSDB_shoreside uProcessWatch,pHelmIvP,pMarinePID,uSimMarine,pShare,pLogger, 
+1.064           DB_QOS               MOOSDB_shoreside pHelmIvP=0:0.167131:0.167131:0,pLogger=0:0.211:0.211:0,pMarinePID=0:0.267029:0.267029:0,pShare=0.0581741:0.218868:0.0391006:0.149584,uProcessWatch=0:0.234842:0.234842:0,uSimMarine=0:0.139952:0.139952:0, 
+1.068           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+1.068           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+1.103           DB_EVENT             MOOSDB_shoreside connected=pNodeReporter 
+1.104           NAV_HEADING          uSimMarine      180.00000    
+1.104           NAV_SPEED            uSimMarine      0.00000      
+1.104           NAV_DEPTH            uSimMarine      0.00000      
+1.104           NAV_PITCH            uSimMarine      0.00000      
+1.104           NAV_YAW              uSimMarine      -3.14159     
+1.104           APPCAST              uSimMarine      proc=uSimMarine!@#iter=1!@#node=alpha!@#iter=1!@#messages=Datum: 43.8253,-70.3304!@!@  Start Pose           Current Pose (NAV)     Current Pose (GT)!@------- ------------   ------- ------------   ------- ---------!@Headng: 180            Headng: 180             (same) -        !@ Speed: 0               Speed: 0                      -        !@ Depth: 0               Depth: 0                      -        !@   Alt: 0                 Alt: 0                      -        !@ (X,Y): 0,-20           (X,Y): 0,-20                  -        !@   Lat: 43.82511993       Lat: 43.82511993            -        !@   Lon: -70.33039599      Lon: -70.33039599           -        !@Present Buoyancy rate: 0.025!@        Starting rate: 0.025!@               Source: initial_config!@!@Ext Drift  X   Y   |  Mag  Ang  |  Rot.  |  Source(s)  !@---------  --  --  |  ---  ---  |  ----  |  -----------!@ Starting  0   0   |  0    0    |  0     |  init_config!@  Present  0   0   |  0    0    |  0     |  n/a        !@!@Velocity Information: !@--------------------- !@     DESIRED_THRUST=0 ==> SPEED=0!@     Using Thrust_Factor: false!@     Positive Thrust Map: 20,1, 40,2, 60,3, 80,4, 100,5!@     Negative Thrust Map: Positive thrust-map reflected!@        Max Accereration: 0!@        Max Decereration: 0.5!@!@             Thrust Mode: normal!@     Thrust Mode Reverse: false!@        DESIRED_THRUST_L: n/a!@        DESIRED_THRUST_R: n/a!@!@Depth Information: !@------------------ !@           Max Depth Rate: 0.5!@     Max Depth Rate Speed: 2!@              Water Depth: 0!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.105           MOOS_DEBUG           pMarinePID      pMarinePID Control Is On 
+1.105           MOOS_DEBUG           pMarinePID      pMarinePID Control Is On 
+1.105           MOOS_DEBUG           pMarinePID      Paused Due To Tardy HELM Input: THRUST=0 
+1.105           DESIRED_THRUST       pMarinePID      0.00000      
+1.105           APPCAST              pMarinePID      proc=pMarinePID!@#iter=1!@#node=alpha!@#iter=1!@#messages=hello!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.155           DESIRED_THRUST       pMarinePID      0.00000      
+1.205           DESIRED_THRUST       pMarinePID      0.00000      
+1.255           DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.255           RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.255           IVPHELM_REGISTER     pHelmIvP        IVPHELM_STATE 
+1.255           IVPHELM_REGISTER     pHelmIvP        DB_CLIENTS 
+1.255           IVPHELM_REGISTER     pHelmIvP        MOOS_MANUAL_OVERIDE 
+1.255           IVPHELM_REGISTER     pHelmIvP        MOOS_MANUAL_OVERRIDE 
+1.255           IVPHELM_REGISTER     pHelmIvP        RESTART_HELM 
+1.255           IVPHELM_REGISTER     pHelmIvP        IVPHELM_REJOURNAL 
+1.255           IVPHELM_REGISTER     pHelmIvP        NAV_SPEED 
+1.255           IVPHELM_REGISTER     pHelmIvP        NAV_HEADING 
+1.255           IVPHELM_REGISTER     pHelmIvP        NAV_DEPTH 
+1.255           IVPHELM_REGISTER     pHelmIvP        HELM_MAP_CLEAR 
+1.255           IVPHELM_REGISTER     pHelmIvP        AIS_REPORT 
+1.255           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT 
+1.255           IVPHELM_REGISTER     pHelmIvP        AIS_REPORT_LOCAL 
+1.255           IVPHELM_REGISTER     pHelmIvP        NODE_REPORT_LOCAL 
+1.255           IVPHELM_REGISTER     pHelmIvP        RETURN 
+1.255           IVPHELM_REGISTER     pHelmIvP        DEPLOY 
+1.255           IVPHELM_REGISTER     pHelmIvP        NAV_X 
+1.255           IVPHELM_REGISTER     pHelmIvP        NAV_Y 
+1.255           IVPHELM_REGISTER     pHelmIvP        NAV_SPEED 
+1.255           IVPHELM_REGISTER     pHelmIvP        WPT_UPDATE 
+1.255           IVPHELM_REGISTER     pHelmIvP        RETURN_UPDATE 
+1.255           IVPHELM_REGISTER     pHelmIvP        SPD 
+1.255           IVPHELM_REGISTER     pHelmIvP        CONST_SPD_RESET 
+1.255           IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.255           PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.256           DESIRED_THRUST       pMarinePID      0.00000      
+1.303           DB_EVENT             MOOSDB_shoreside connected=uMemWatch 
+1.306           DESIRED_THRUST       pMarinePID      0.00000      
+1.354           NAV_HEADING          uSimMarine      180.00000    
+1.354           NAV_SPEED            uSimMarine      0.00000      
+1.354           NAV_DEPTH            uSimMarine      0.00000      
+1.354           NAV_PITCH            uSimMarine      0.00000      
+1.354           NAV_YAW              uSimMarine      -3.14159     
+1.356           DESIRED_THRUST       pMarinePID      0.00000      
+1.406           DESIRED_THRUST       pMarinePID      0.00000      
+1.456           DESIRED_THRUST       pMarinePID      0.00000      
+1.506           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.506           DESIRED_SPEED        pHelmIvP        0.00000      
+1.506           DESIRED_HEADING      pHelmIvP        0.00000      
+1.506           APPCAST              pHelmIvP        proc=pHelmIvP!@#iter=1!@#node=alpha!@#iter=1!@#messages=  Helm Iteration:  0!@  IvP Functions:   0!@  Pieces (Formed): 0!@  Pieces (Cached): 0!@  Mode(s):         !@  SolveTime:   0.00   (max=0.00)!@  CreateTime:  0.00   (max=0.00)!@  LoopTime:    0.00   (max=0.00)!@  Halted:         false   (0 warnings)!@  Active Goal:    false!@Helm Decision: []!@Behaviors Spawnable: --------- (0)!@Behaviors Active: ---------- (0)!@Behaviors Running: --------- (0)!@Behaviors Idle: ------------ (0)!@  !@Behaviors Completed: ------- (0)!@Hold-On-Apps: none!@!@!@Variable  Behavior  Time  Iter  Value!@--------  --------  ----  ----  -----!@!@#!@#events_total=0!@#!@#run_warning_total=2!@#run_warnings=2:Helm ignores MOOS msg due to skew: MOOS_MANUAL_OVERRIDE Source=pMarineViewer Skew=310.47 
+1.506           DESIRED_RUDDER       pMarinePID      0.00000      
+1.506           DESIRED_THRUST       pMarinePID      0.00000      
+1.557           DESIRED_RUDDER       pMarinePID      0.00000      
+1.557           DESIRED_THRUST       pMarinePID      0.00000      
+1.605           NAV_HEADING          uSimMarine      180.00000    
+1.605           NAV_SPEED            uSimMarine      0.00000      
+1.605           NAV_DEPTH            uSimMarine      0.00000      
+1.605           NAV_PITCH            uSimMarine      0.00000      
+1.605           NAV_YAW              uSimMarine      -3.14159     
+1.607           DESIRED_RUDDER       pMarinePID      0.00000      
+1.607           DESIRED_THRUST       pMarinePID      0.00000      
+1.657           DESIRED_RUDDER       pMarinePID      0.00000      
+1.657           DESIRED_THRUST       pMarinePID      0.00000      
+1.701           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=1!@#node=alpha!@#iter=1!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePID,pNodeReporter,pShare!@             uMemWatch,uSimMarine!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@pHelmIvP        ANT       DB   [7;32mOK[0m       1.01       1.01    !@pLogger         ANT       DB   [7;32mOK[0m       1.06       1.06    !@pMarinePID      ANT       DB   [7;32mOK[0m       1.08       1.08    !@pNodeReporter   ANT            [7;32mOK[0m       0.00       0.00    !@pShare          ANT       DB   [7;32mOK[0m       0.23       0.23    !@uMemWatch       ANT            [7;32mOK[0m       0.00       0.00    !@uSimMarine      ANT       DB   [7;32mOK[0m       1.09       1.09    !@!@#!@#events_total=7!@#events=[0.00]: Noted to be present: [pShare]!@[0.00]: Noted to be present: [uMemWatch]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePID]!@[0.00]: Noted to be present: [uSimMarine]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+1.707           DESIRED_RUDDER       pMarinePID      0.00000      
+1.707           DESIRED_THRUST       pMarinePID      0.00000      
+1.757           DESIRED_RUDDER       pMarinePID      0.00000      
+1.757           DESIRED_THRUST       pMarinePID      0.00000      
+1.808           DESIRED_RUDDER       pMarinePID      0.00000      
+1.808           DESIRED_THRUST       pMarinePID      0.00000      
+1.855           NAV_HEADING          uSimMarine      180.00000    
+1.855           NAV_SPEED            uSimMarine      0.00000      
+1.855           NAV_DEPTH            uSimMarine      0.00000      
+1.855           NAV_PITCH            uSimMarine      0.00000      
+1.855           NAV_YAW              uSimMarine      -3.14159     
+1.858           DESIRED_RUDDER       pMarinePID      0.00000      
+1.858           DESIRED_THRUST       pMarinePID      0.00000      
+-317.223        PMARINEVIEWER_PID    pMarineViewer   3483.00000   
+-316.972        HELM_MAP_CLEAR       pMarineViewer   0.00000      
+-316.972        PMV_CONNECT          pMarineViewer   0.00000      
+-308.963        APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+-308.963        APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        MOOS_MANUAL_OVERRIDE pMarineViewer   false 
+-307.962        PMARINEVIEWER_ITER_GAP pMarineViewer   1.00047      
+-307.962        PMARINEVIEWER_ITER_LEN pMarineViewer   0.00006      
+0.652           LOGGER_DIRECTORY     pLogger         ./MOOSLog_17_6_2020_____06_57_37 
+1.064           DB_TIME              MOOSDB_shoreside 1592391458.38594 
+1.064           DB_UPTIME            MOOSDB_shoreside 319.26228    
+1.064           DB_CLIENTS           MOOSDB_shoreside uProcessWatch,pHelmIvP,pMarinePID,uSimMarine,pShare,pLogger, 
+1.064           DB_QOS               MOOSDB_shoreside pHelmIvP=0:0.167131:0.167131:0,pLogger=0:0.211:0.211:0,pMarinePID=0:0.267029:0.267029:0,pShare=0.0581741:0.218868:0.0391006:0.149584,uProcessWatch=0:0.234842:0.234842:0,uSimMarine=0:0.139952:0.139952:0, 
+1.068           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+1.068           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+1.104           USM_FSUMMARY         uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+1.104           USM_DRIFT_SUMMARY    uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+1.253           PHELMIVP_PID         pHelmIvP        13013.00000  
+1.255           DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.255           RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.255           IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.255           PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.255           IVPHELM_DOMAIN       pHelmIvP        speed,0,4,41:course,0,359,360 
+1.255           IVPHELM_MODESET      pHelmIvP         
+1.303           DB_EVENT             MOOSDB_shoreside connected=uMemWatch 
+1.450           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.451           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+1.505           IVPHELM_SKEW         pHelmIvP        Helm ignores MOOS msg due to skew: MOOS_MANUAL_OVERRIDE Source=pMarineViewer Skew=310.47 curr_time: 1592391458.827 
+1.506           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.506           IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.506           DESIRED_SPEED        pHelmIvP        0.00000      
+1.506           DESIRED_HEADING      pHelmIvP        0.00000      
+1.653           PNODEREPORTER_PID    pNodeReporter   13033.00000  
+1.701           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.701           PROC_WATCH_FULL_SUMMARY uProcessWatch   pShare(1/0),uMemWatch(1/0),pNodeReporter(1/0),pHelmIvP(1/0),pMarinePID(1/0),uSimMarine(1/0),pLogger(1/0) 
+1.701           APPCAST              uProcessWatch   proc=uProcessWatch!@#iter=1!@#node=alpha!@#iter=1!@#messages=Summary: All Present!@!@Antler List: pHelmIvP,pLogger,pMarinePID,pNodeReporter,pShare!@             uMemWatch,uSimMarine!@!@                                        Current    Max     !@ProcName        Watch Reason   Status   CPU Load   CPU Load!@-------------   ------------   ------   --------   --------!@pHelmIvP        ANT       DB   [7;32mOK[0m       1.01       1.01    !@pLogger         ANT       DB   [7;32mOK[0m       1.06       1.06    !@pMarinePID      ANT       DB   [7;32mOK[0m       1.08       1.08    !@pNodeReporter   ANT            [7;32mOK[0m       0.00       0.00    !@pShare          ANT       DB   [7;32mOK[0m       0.23       0.23    !@uMemWatch       ANT            [7;32mOK[0m       0.00       0.00    !@uSimMarine      ANT       DB   [7;32mOK[0m       1.09       1.09    !@!@#!@#events_total=7!@#events=[0.00]: Noted to be present: [pShare]!@[0.00]: Noted to be present: [uMemWatch]!@[0.00]: Noted to be present: [pNodeReporter]!@[0.00]: Noted to be present: [pHelmIvP]!@[0.00]: Noted to be present: [pMarinePID]!@[0.00]: Noted to be present: [uSimMarine]!@[0.00]: Noted to be present: [pLogger]!@#run_warning_total=0!@# 
+1.855           NAV_DEPTH            uSimMarine      0.00000      
+1.855           NAV_HEADING          uSimMarine      180.00000    
+1.855           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+1.855           NAV_LAT              uSimMarine      43.82512     
+1.855           NAV_LONG             uSimMarine      -70.33040    
+1.855           NAV_PITCH            uSimMarine      0.00000      
+1.855           NAV_SPEED            uSimMarine      0.00000      
+1.855           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+1.855           NAV_X                uSimMarine      0.00000      
+1.855           NAV_Y                uSimMarine      -20.00000    
+1.855           NAV_YAW              uSimMarine      -3.14159     
+1.855           NAV_Z                uSimMarine      -0.00000     
+1.855           SIMULATION_MODE      uSimMarine      TRUE 
+1.855           TRUE_X               uSimMarine      0.00000      
+1.855           TRUE_Y               uSimMarine      -20.00000    
+1.855           USIMMARINE_ITER_GAP  uSimMarine      1.00333      
+1.855           USIMMARINE_ITER_LEN  uSimMarine      0.00028      
+1.908           DESIRED_RUDDER       pMarinePID      0.00000      
+1.908           DESIRED_THRUST       pMarinePID      0.00000      
+1.951           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00011      
+1.958           PMARINEPID_ITER_GAP  pMarinePID      1.00616      
+1.958           PID_REPORT           pMarinePID      18:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+1.958           DESIRED_RUDDER       pMarinePID      0.00000      
+1.958           DESIRED_RUDDER       pMarinePID      0.00000      
+1.958           DESIRED_THRUST       pMarinePID      0.00000      
+1.958           DESIRED_THRUST       pMarinePID      0.00000      
+1.958           PMARINEPID_ITER_LEN  pMarinePID      0.00286      
+2.006           PHELMIVP_ITER_GAP    pHelmIvP        1.00056      
+2.006           IVPHELM_CPU          pHelmIvP        0.93421      
+2.006           IVPHELM_STATE        pHelmIvP        PARK 
+2.006           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.006           PHELMIVP_ITER_LEN    pHelmIvP        0.00011      
+2.009           PMARINEPID_ITER_GAP  pMarinePID      1.00454      
+2.009           PID_REPORT           pMarinePID      19:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.009           PID_REPORT           pMarinePID      19:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.009           DESIRED_RUDDER       pMarinePID      0.00000      
+2.009           DESIRED_THRUST       pMarinePID      0.00000      
+2.009           PMARINEPID_ITER_LEN  pMarinePID      0.00294      
+2.059           PMARINEPID_ITER_GAP  pMarinePID      1.00528      
+2.059           PID_REPORT           pMarinePID      20:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.059           PID_REPORT           pMarinePID      20:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.059           DESIRED_RUDDER       pMarinePID      0.00000      
+2.059           DESIRED_THRUST       pMarinePID      0.00000      
+2.059           PMARINEPID_ITER_LEN  pMarinePID      0.00284      
+2.083           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+2.083           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+2.103           APPCAST              uMemWatch       proc=uMemWatch!@#iter=1!@#node=alpha!@#iter=1!@#messages=Configuration:     !@  Watch Only Apps: pHelmIvP,pMarineViewer!@      Ignore Apps: None!@Absolute Time Gap: 1!@!@App  PID  Memory  Delta!@---  ---  ------  -----!@!@ Last ix: 0!@Last app: !@Last mem: !@Last raw: !@Warp: 1!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.106           NAV_X                uSimMarine      0.00000      
+2.106           NAV_Y                uSimMarine      -20.00000    
+2.106           NAV_LAT              uSimMarine      43.82512     
+2.106           NAV_LONG             uSimMarine      -70.33040    
+2.106           NAV_HEADING          uSimMarine      180.00000    
+2.106           NAV_SPEED            uSimMarine      0.00000      
+2.106           NAV_DEPTH            uSimMarine      0.00000      
+2.106           SIMULATION_MODE      uSimMarine      TRUE 
+2.106           NAV_Z                uSimMarine      -0.00000     
+2.106           NAV_PITCH            uSimMarine      0.00000      
+2.106           NAV_YAW              uSimMarine      -3.14159     
+2.106           TRUE_X               uSimMarine      0.00000      
+2.106           TRUE_Y               uSimMarine      -20.00000    
+2.106           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+2.106           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+2.106           USIMMARINE_ITER_GAP  uSimMarine      1.00065      
+2.106           USIMMARINE_ITER_LEN  uSimMarine      0.00014      
+2.109           PMARINEPID_ITER_GAP  pMarinePID      1.00432      
+2.109           PID_REPORT           pMarinePID      21:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.109           PID_REPORT           pMarinePID      21:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.109           DESIRED_RUDDER       pMarinePID      0.00000      
+2.109           DESIRED_THRUST       pMarinePID      0.00000      
+2.109           PMARINEPID_ITER_LEN  pMarinePID      0.00084      
+2.154           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,YAW=-1.5707963,TIME=1592391459.48,LENGTH=4 
+2.154           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=1!@#node=alpha!@#iter=1!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: !@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 1!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                YAW=-1.5707963,TIME=1592391459.48,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.159           PMARINEPID_ITER_GAP  pMarinePID      1.00266      
+2.159           PID_REPORT           pMarinePID      22:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.159           PID_REPORT           pMarinePID      22:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.159           DESIRED_RUDDER       pMarinePID      0.00000      
+2.159           DESIRED_THRUST       pMarinePID      0.00000      
+2.159           PMARINEPID_ITER_LEN  pMarinePID      0.00148      
+2.201           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00004      
+2.209           PMARINEPID_ITER_GAP  pMarinePID      1.00336      
+2.209           PID_REPORT           pMarinePID      23:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.209           PID_REPORT           pMarinePID      23:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.209           DESIRED_RUDDER       pMarinePID      0.00000      
+2.209           DESIRED_THRUST       pMarinePID      0.00000      
+2.209           PMARINEPID_ITER_LEN  pMarinePID      0.00152      
+2.257           PHELMIVP_ITER_GAP    pHelmIvP        1.00164      
+2.257           IVPHELM_CPU          pHelmIvP        0.20555      
+2.257           IVPHELM_STATE        pHelmIvP        PARK 
+2.257           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.257           PHELMIVP_ITER_LEN    pHelmIvP        0.00010      
+2.260           PMARINEPID_ITER_GAP  pMarinePID      1.00372      
+2.260           PID_REPORT           pMarinePID      24:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.260           PID_REPORT           pMarinePID      24:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.260           DESIRED_RUDDER       pMarinePID      0.00000      
+2.260           DESIRED_THRUST       pMarinePID      0.00000      
+2.260           PMARINEPID_ITER_LEN  pMarinePID      0.00252      
+2.310           PMARINEPID_ITER_GAP  pMarinePID      1.00498      
+2.310           PID_REPORT           pMarinePID      25:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.310           PID_REPORT           pMarinePID      25:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.310           DESIRED_RUDDER       pMarinePID      0.00000      
+2.310           DESIRED_THRUST       pMarinePID      0.00000      
+2.310           PMARINEPID_ITER_LEN  pMarinePID      0.00280      
+2.356           NAV_X                uSimMarine      0.00000      
+2.356           NAV_Y                uSimMarine      -20.00000    
+2.356           NAV_LAT              uSimMarine      43.82512     
+2.356           NAV_LONG             uSimMarine      -70.33040    
+2.356           NAV_HEADING          uSimMarine      180.00000    
+2.356           NAV_SPEED            uSimMarine      0.00000      
+2.356           NAV_DEPTH            uSimMarine      0.00000      
+2.356           SIMULATION_MODE      uSimMarine      TRUE 
+2.356           NAV_Z                uSimMarine      -0.00000     
+2.356           NAV_PITCH            uSimMarine      0.00000      
+2.356           NAV_YAW              uSimMarine      -3.14159     
+2.356           TRUE_X               uSimMarine      0.00000      
+2.356           TRUE_Y               uSimMarine      -20.00000    
+2.356           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+2.356           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+2.356           USIMMARINE_ITER_GAP  uSimMarine      1.00152      
+2.356           USIMMARINE_ITER_LEN  uSimMarine      0.00035      
+2.360           PMARINEPID_ITER_GAP  pMarinePID      1.00622      
+2.360           PID_REPORT           pMarinePID      26:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.360           PID_REPORT           pMarinePID      26:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.360           DESIRED_RUDDER       pMarinePID      0.00000      
+2.360           DESIRED_THRUST       pMarinePID      0.00000      
+2.360           PMARINEPID_ITER_LEN  pMarinePID      0.00236      
+2.410           PMARINEPID_ITER_GAP  pMarinePID      1.00416      
+2.410           PID_REPORT           pMarinePID      27:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.410           PID_REPORT           pMarinePID      27:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.410           DESIRED_RUDDER       pMarinePID      0.00000      
+2.410           DESIRED_THRUST       pMarinePID      0.00000      
+2.410           PMARINEPID_ITER_LEN  pMarinePID      0.00224      
+2.452           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+2.461           PMARINEPID_ITER_GAP  pMarinePID      1.00426      
+2.461           PID_REPORT           pMarinePID      28:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.461           PID_REPORT           pMarinePID      28:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.461           DESIRED_RUDDER       pMarinePID      0.00000      
+2.461           DESIRED_THRUST       pMarinePID      0.00000      
+2.461           PMARINEPID_ITER_LEN  pMarinePID      0.00158      
+2.507           PHELMIVP_ITER_GAP    pHelmIvP        1.00065      
+2.507           IVPHELM_CPU          pHelmIvP        0.20555      
+2.507           IVPHELM_STATE        pHelmIvP        PARK 
+2.507           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.507           PHELMIVP_ITER_LEN    pHelmIvP        0.00013      
+2.511           PMARINEPID_ITER_GAP  pMarinePID      1.00368      
+2.511           PID_REPORT           pMarinePID      29:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.511           PID_REPORT           pMarinePID      29:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.511           DESIRED_RUDDER       pMarinePID      0.00000      
+2.511           DESIRED_THRUST       pMarinePID      0.00000      
+2.511           PMARINEPID_ITER_LEN  pMarinePID      0.00224      
+2.561           PMARINEPID_ITER_GAP  pMarinePID      1.00460      
+2.561           PID_REPORT           pMarinePID      30:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.561           PID_REPORT           pMarinePID      30:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.561           DESIRED_RUDDER       pMarinePID      0.00000      
+2.561           DESIRED_THRUST       pMarinePID      0.00000      
+2.561           PMARINEPID_ITER_LEN  pMarinePID      0.00238      
+2.606           NAV_X                uSimMarine      0.00000      
+2.606           NAV_Y                uSimMarine      -20.00000    
+2.606           NAV_LAT              uSimMarine      43.82512     
+2.606           NAV_LONG             uSimMarine      -70.33040    
+2.606           NAV_HEADING          uSimMarine      180.00000    
+2.606           NAV_SPEED            uSimMarine      0.00000      
+2.606           NAV_DEPTH            uSimMarine      0.00000      
+2.606           SIMULATION_MODE      uSimMarine      TRUE 
+2.606           NAV_Z                uSimMarine      -0.00000     
+2.606           NAV_PITCH            uSimMarine      0.00000      
+2.606           NAV_YAW              uSimMarine      -3.14159     
+2.606           TRUE_X               uSimMarine      0.00000      
+2.606           TRUE_Y               uSimMarine      -20.00000    
+2.606           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+2.606           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+2.606           USIMMARINE_ITER_GAP  uSimMarine      1.00082      
+2.606           USIMMARINE_ITER_LEN  uSimMarine      0.00040      
+2.611           PMARINEPID_ITER_GAP  pMarinePID      1.00518      
+2.611           PID_REPORT           pMarinePID      31:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.611           PID_REPORT           pMarinePID      31:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.611           DESIRED_RUDDER       pMarinePID      0.00000      
+2.611           DESIRED_THRUST       pMarinePID      0.00000      
+2.611           PMARINEPID_ITER_LEN  pMarinePID      0.00352      
+2.655           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=1,YAW=-1.5707963,TIME=1592391459.98,LENGTH=4 
+2.661           PMARINEPID_ITER_GAP  pMarinePID      1.00574      
+2.662           PID_REPORT           pMarinePID      32:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.662           PID_REPORT           pMarinePID      32:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.662           DESIRED_RUDDER       pMarinePID      0.00000      
+2.662           DESIRED_THRUST       pMarinePID      0.00000      
+2.662           PMARINEPID_ITER_LEN  pMarinePID      0.00246      
+2.702           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+2.712           PMARINEPID_ITER_GAP  pMarinePID      1.00402      
+2.712           PID_REPORT           pMarinePID      33:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.712           PID_REPORT           pMarinePID      33:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.712           DESIRED_RUDDER       pMarinePID      0.00000      
+2.712           DESIRED_THRUST       pMarinePID      0.00000      
+2.712           PMARINEPID_ITER_LEN  pMarinePID      0.00248      
+2.757           PHELMIVP_ITER_GAP    pHelmIvP        1.00182      
+2.757           IVPHELM_CPU          pHelmIvP        0.22394      
+2.757           IVPHELM_STATE        pHelmIvP        PARK 
+2.757           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+2.757           PHELMIVP_ITER_LEN    pHelmIvP        0.00010      
+2.762           PMARINEPID_ITER_GAP  pMarinePID      1.00482      
+2.762           PID_REPORT           pMarinePID      34:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.762           PID_REPORT           pMarinePID      34:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.762           DESIRED_RUDDER       pMarinePID      0.00000      
+2.762           DESIRED_THRUST       pMarinePID      0.00000      
+2.762           PMARINEPID_ITER_LEN  pMarinePID      0.00206      
+2.812           PMARINEPID_ITER_GAP  pMarinePID      1.00430      
+2.812           PID_REPORT           pMarinePID      35:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.812           PID_REPORT           pMarinePID      35:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.812           DESIRED_RUDDER       pMarinePID      0.00000      
+2.812           DESIRED_THRUST       pMarinePID      0.00000      
+2.812           PMARINEPID_ITER_LEN  pMarinePID      0.00240      
+2.857           NAV_X                uSimMarine      0.00000      
+2.857           NAV_Y                uSimMarine      -20.00000    
+2.857           NAV_LAT              uSimMarine      43.82512     
+2.857           NAV_LONG             uSimMarine      -70.33040    
+2.857           NAV_HEADING          uSimMarine      180.00000    
+2.857           NAV_SPEED            uSimMarine      0.00000      
+2.857           NAV_DEPTH            uSimMarine      0.00000      
+2.857           SIMULATION_MODE      uSimMarine      TRUE 
+2.857           NAV_Z                uSimMarine      -0.00000     
+2.857           NAV_PITCH            uSimMarine      0.00000      
+2.857           NAV_YAW              uSimMarine      -3.14159     
+2.857           TRUE_X               uSimMarine      0.00000      
+2.857           TRUE_Y               uSimMarine      -20.00000    
+2.857           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+2.857           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+2.857           USIMMARINE_ITER_GAP  uSimMarine      1.00434      
+2.857           USIMMARINE_ITER_LEN  uSimMarine      0.00035      
+2.862           PMARINEPID_ITER_GAP  pMarinePID      1.00468      
+2.862           PID_REPORT           pMarinePID      36:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.862           PID_REPORT           pMarinePID      36:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.863           DESIRED_RUDDER       pMarinePID      0.00000      
+2.863           DESIRED_THRUST       pMarinePID      0.00000      
+2.863           PMARINEPID_ITER_LEN  pMarinePID      0.00264      
+2.913           PMARINEPID_ITER_GAP  pMarinePID      1.00478      
+2.913           PID_REPORT           pMarinePID      37:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.913           PID_REPORT           pMarinePID      37:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.913           DESIRED_RUDDER       pMarinePID      0.00000      
+2.913           DESIRED_THRUST       pMarinePID      0.00000      
+2.913           PMARINEPID_ITER_LEN  pMarinePID      0.00192      
+2.952           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+2.963           PMARINEPID_ITER_GAP  pMarinePID      1.00406      
+2.963           PID_REPORT           pMarinePID      38:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+2.963           PID_REPORT           pMarinePID      38:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+2.963           DESIRED_RUDDER       pMarinePID      0.00000      
+2.963           DESIRED_THRUST       pMarinePID      0.00000      
+2.963           PMARINEPID_ITER_LEN  pMarinePID      0.00198      
+3.007           PHELMIVP_ITER_GAP    pHelmIvP        1.00068      
+3.007           IVPHELM_CPU          pHelmIvP        0.22394      
+3.007           IVPHELM_STATE        pHelmIvP        PARK 
+3.007           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+3.007           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+3.013           PMARINEPID_ITER_GAP  pMarinePID      1.00432      
+3.013           PID_REPORT           pMarinePID      39:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.013           PID_REPORT           pMarinePID      39:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.013           DESIRED_RUDDER       pMarinePID      0.00000      
+3.013           DESIRED_THRUST       pMarinePID      0.00000      
+3.013           PMARINEPID_ITER_LEN  pMarinePID      0.00320      
+-317.223        PMARINEVIEWER_PID    pMarineViewer   3483.00000   
+-316.972        HELM_MAP_CLEAR       pMarineViewer   0.00000      
+-316.972        PMV_CONNECT          pMarineViewer   0.00000      
+-308.963        APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+-308.963        APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        MOOS_MANUAL_OVERRIDE pMarineViewer   false 
+-307.962        PMARINEVIEWER_ITER_GAP pMarineViewer   1.00047      
+-307.962        PMARINEVIEWER_ITER_LEN pMarineViewer   0.00006      
+0.652           LOGGER_DIRECTORY     pLogger         ./MOOSLog_17_6_2020_____06_57_37 
+1.104           USM_FSUMMARY         uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+1.104           USM_DRIFT_SUMMARY    uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+1.253           PHELMIVP_PID         pHelmIvP        13013.00000  
+1.255           DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.255           RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.255           IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.255           PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.255           IVPHELM_DOMAIN       pHelmIvP        speed,0,4,41:course,0,359,360 
+1.255           IVPHELM_MODESET      pHelmIvP         
+1.303           DB_EVENT             MOOSDB_shoreside connected=uMemWatch 
+1.450           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.451           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+1.505           IVPHELM_SKEW         pHelmIvP        Helm ignores MOOS msg due to skew: MOOS_MANUAL_OVERRIDE Source=pMarineViewer Skew=310.47 curr_time: 1592391458.827 
+1.506           MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: ManualOverride 
+1.506           IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.506           DESIRED_SPEED        pHelmIvP        0.00000      
+1.506           DESIRED_HEADING      pHelmIvP        0.00000      
+1.653           PNODEREPORTER_PID    pNodeReporter   13033.00000  
+1.701           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.701           PROC_WATCH_FULL_SUMMARY uProcessWatch   pShare(1/0),uMemWatch(1/0),pNodeReporter(1/0),pHelmIvP(1/0),pMarinePID(1/0),uSimMarine(1/0),pLogger(1/0) 
+2.154           NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,YAW=-1.5707963,TIME=1592391459.48,LENGTH=4 
+2.154           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=1!@#node=alpha!@#iter=1!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: !@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 1!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                YAW=-1.5707963,TIME=1592391459.48,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.655           PNODEREPORTER_ITER_GAP pNodeReporter   1.00085      
+2.655           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=1,YAW=-1.5707963,TIME=1592391459.98,LENGTH=4 
+2.655           PNODEREPORTER_ITER_LEN pNodeReporter   0.00012      
+2.952           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00180      
+2.952           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+3.007           PHELMIVP_ITER_GAP    pHelmIvP        1.00068      
+3.007           IVPHELM_CPU          pHelmIvP        0.22394      
+3.007           IVPHELM_STATE        pHelmIvP        PARK 
+3.007           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+3.007           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+3.063           PMARINEPID_ITER_GAP  pMarinePID      1.00550      
+3.063           PID_REPORT           pMarinePID      40:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.063           PID_REPORT           pMarinePID      40:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.063           DESIRED_RUDDER       pMarinePID      0.00000      
+3.063           DESIRED_THRUST       pMarinePID      0.00000      
+3.063           PMARINEPID_ITER_LEN  pMarinePID      0.00290      
+3.082           DB_TIME              MOOSDB_shoreside 1592391460.40451 
+3.082           DB_TIME              MOOSDB_shoreside 1592391460.40451 
+3.082           DB_UPTIME            MOOSDB_shoreside 321.28086    
+3.082           DB_UPTIME            MOOSDB_shoreside 321.28086    
+3.082           DB_CLIENTS           MOOSDB_shoreside uMemWatch,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,uSimMarine,pShare,pLogger, 
+3.082           DB_CLIENTS           MOOSDB_shoreside uMemWatch,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,uSimMarine,pShare,pLogger, 
+3.084           DB_QOS               MOOSDB_shoreside pHelmIvP=0:0.167131:0.109196:0,pLogger=0:0.211:0.0519753:0,pMarinePID=0:0.267029:0.123024:0,pNodeReporter=0:0.137091:0.121117:0,pShare=0.121117:0.218868:0.0391006:0.162172,uMemWatch=0:0.155926:0.0898838:0,uProcessWatch=0:0.234842:0.147104:0,uSimMarine=0:0.191927:0.084877:0, 
+3.084           DB_QOS               MOOSDB_shoreside pHelmIvP=0:0.167131:0.109196:0,pLogger=0:0.211:0.0519753:0,pMarinePID=0:0.267029:0.123024:0,pNodeReporter=0:0.137091:0.121117:0,pShare=0.121117:0.218868:0.0391006:0.162172,uMemWatch=0:0.155926:0.0898838:0,uProcessWatch=0:0.234842:0.147104:0,uSimMarine=0:0.191927:0.084877:0, 
+3.087           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+3.087           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+3.087           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+3.087           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+3.104           UMEMWATCH_ITER_GAP   uMemWatch       1.00077      
+3.108           NAV_X                uSimMarine      0.00000      
+3.108           NAV_Y                uSimMarine      -20.00000    
+3.108           NAV_LAT              uSimMarine      43.82512     
+3.108           NAV_LONG             uSimMarine      -70.33040    
+3.108           NAV_HEADING          uSimMarine      180.00000    
+3.108           NAV_SPEED            uSimMarine      0.00000      
+3.108           NAV_DEPTH            uSimMarine      0.00000      
+3.108           SIMULATION_MODE      uSimMarine      TRUE 
+3.108           NAV_Z                uSimMarine      -0.00000     
+3.108           NAV_PITCH            uSimMarine      0.00000      
+3.108           NAV_YAW              uSimMarine      -3.14159     
+3.108           TRUE_X               uSimMarine      0.00000      
+3.108           TRUE_Y               uSimMarine      -20.00000    
+3.108           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+3.108           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+3.108           NAV_DEPTH            uSimMarine      0.00000      
+3.108           NAV_HEADING          uSimMarine      180.00000    
+3.108           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+3.108           NAV_LAT              uSimMarine      43.82512     
+3.108           NAV_LONG             uSimMarine      -70.33040    
+3.108           NAV_PITCH            uSimMarine      0.00000      
+3.108           NAV_SPEED            uSimMarine      0.00000      
+3.108           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+3.108           NAV_X                uSimMarine      0.00000      
+3.108           NAV_Y                uSimMarine      -20.00000    
+3.108           NAV_YAW              uSimMarine      -3.14159     
+3.108           NAV_Z                uSimMarine      -0.00000     
+3.108           SIMULATION_MODE      uSimMarine      TRUE 
+3.108           TRUE_X               uSimMarine      0.00000      
+3.108           TRUE_Y               uSimMarine      -20.00000    
+3.108           USIMMARINE_ITER_GAP  uSimMarine      1.00120      
+3.108           USIMMARINE_ITER_GAP  uSimMarine      1.00120      
+3.108           USIMMARINE_ITER_LEN  uSimMarine      0.00026      
+3.108           USIMMARINE_ITER_LEN  uSimMarine      0.00026      
+3.114           PMARINEPID_ITER_GAP  pMarinePID      1.00516      
+3.114           PMARINEPID_ITER_GAP  pMarinePID      1.00516      
+3.114           PID_REPORT           pMarinePID      41:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.114           PID_REPORT           pMarinePID      41:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.114           PID_REPORT           pMarinePID      41:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.114           DESIRED_RUDDER       pMarinePID      0.00000      
+3.114           DESIRED_RUDDER       pMarinePID      0.00000      
+3.114           DESIRED_THRUST       pMarinePID      0.00000      
+3.114           DESIRED_THRUST       pMarinePID      0.00000      
+3.114           PMARINEPID_ITER_LEN  pMarinePID      0.00120      
+3.114           PMARINEPID_ITER_LEN  pMarinePID      0.00120      
+3.123           UMEMWATCH_ITER_LEN   uMemWatch       0.07399      
+3.155           PNODEREPORTER_ITER_GAP pNodeReporter   1.00070      
+3.155           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=2,YAW=-1.5707963,TIME=1592391460.48,LENGTH=4 
+3.155           PNODEREPORTER_ITER_LEN pNodeReporter   0.00006      
+3.164           PMARINEPID_ITER_GAP  pMarinePID      1.00344      
+3.164           PID_REPORT           pMarinePID      42:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.164           PID_REPORT           pMarinePID      42:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.164           DESIRED_RUDDER       pMarinePID      0.00000      
+3.164           DESIRED_THRUST       pMarinePID      0.00000      
+3.164           PMARINEPID_ITER_LEN  pMarinePID      0.00108      
+3.203           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00082      
+3.203           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00004      
+3.214           PMARINEPID_ITER_GAP  pMarinePID      1.00290      
+3.214           PID_REPORT           pMarinePID      43:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.214           PID_REPORT           pMarinePID      43:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.214           DESIRED_RUDDER       pMarinePID      0.00000      
+3.214           DESIRED_THRUST       pMarinePID      0.00000      
+3.214           PMARINEPID_ITER_LEN  pMarinePID      0.00216      
+3.258           PHELMIVP_ITER_GAP    pHelmIvP        1.00163      
+3.258           IVPHELM_CPU          pHelmIvP        0.30748      
+3.258           IVPHELM_STATE        pHelmIvP        PARK 
+3.258           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+3.258           PHELMIVP_ITER_LEN    pHelmIvP        0.00005      
+3.264           PMARINEPID_ITER_GAP  pMarinePID      1.00386      
+3.264           PID_REPORT           pMarinePID      44:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.264           PID_REPORT           pMarinePID      44:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.264           DESIRED_RUDDER       pMarinePID      0.00000      
+3.264           DESIRED_THRUST       pMarinePID      0.00000      
+3.264           PMARINEPID_ITER_LEN  pMarinePID      0.00152      
+3.314           PMARINEPID_ITER_GAP  pMarinePID      1.00324      
+3.314           PID_REPORT           pMarinePID      45:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.314           PID_REPORT           pMarinePID      45:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.314           DESIRED_RUDDER       pMarinePID      0.00000      
+3.314           DESIRED_THRUST       pMarinePID      0.00000      
+3.314           PMARINEPID_ITER_LEN  pMarinePID      0.00190      
+3.355           UMEMWATCH_ITER_GAP   uMemWatch       1.00282      
+3.355           UMEMWATCH_ITER_LEN   uMemWatch       0.00004      
+3.358           NAV_X                uSimMarine      0.00000      
+3.358           NAV_Y                uSimMarine      -20.00000    
+3.358           NAV_LAT              uSimMarine      43.82512     
+3.358           NAV_LONG             uSimMarine      -70.33040    
+3.358           NAV_HEADING          uSimMarine      180.00000    
+3.358           NAV_SPEED            uSimMarine      0.00000      
+3.358           NAV_DEPTH            uSimMarine      0.00000      
+3.358           SIMULATION_MODE      uSimMarine      TRUE 
+3.358           NAV_Z                uSimMarine      -0.00000     
+3.358           NAV_PITCH            uSimMarine      0.00000      
+3.358           NAV_YAW              uSimMarine      -3.14159     
+3.358           TRUE_X               uSimMarine      0.00000      
+3.358           TRUE_Y               uSimMarine      -20.00000    
+3.358           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+3.358           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+3.358           USIMMARINE_ITER_GAP  uSimMarine      1.00360      
+3.359           USIMMARINE_ITER_LEN  uSimMarine      0.00024      
+3.364           PMARINEPID_ITER_GAP  pMarinePID      1.00378      
+3.365           PID_REPORT           pMarinePID      46:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.365           PID_REPORT           pMarinePID      46:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.365           DESIRED_RUDDER       pMarinePID      0.00000      
+3.365           DESIRED_THRUST       pMarinePID      0.00000      
+3.365           PMARINEPID_ITER_LEN  pMarinePID      0.00198      
+3.415           PMARINEPID_ITER_GAP  pMarinePID      1.00404      
+3.415           PID_REPORT           pMarinePID      47:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.415           PID_REPORT           pMarinePID      47:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.415           DESIRED_RUDDER       pMarinePID      0.00000      
+3.415           DESIRED_THRUST       pMarinePID      0.00000      
+3.415           PMARINEPID_ITER_LEN  pMarinePID      0.00196      
+3.453           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00155      
+3.453           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00010      
+3.465           PMARINEPID_ITER_GAP  pMarinePID      1.00420      
+3.465           PID_REPORT           pMarinePID      48:PID_COURSE:  (Want):0.00000 (Curr):180.00000 (Diff):-180.00000 RUDDER:100.00000 
+3.465           PID_REPORT           pMarinePID      48:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.465           DESIRED_RUDDER       pMarinePID      0.00000      
+3.465           DESIRED_THRUST       pMarinePID      0.00000      
+3.465           PMARINEPID_ITER_LEN  pMarinePID      0.00264      
+3.508           PHELMIVP_ITER_GAP    pHelmIvP        1.00105      
+3.508           IVPHELM_CPU          pHelmIvP        0.30748      
+3.508           IVPHELM_STATE        pHelmIvP        PARK 
+3.508           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+3.508           PHELMIVP_ITER_LEN    pHelmIvP        0.00008      
+3.515           PMARINEPID_ITER_GAP  pMarinePID      1.00504      
+3.515           MOOS_DEBUG           pMarinePID      Paused Due To Tardy HELM Input: THRUST=0 
+3.515           DESIRED_THRUST       pMarinePID      0.00000      
+3.515           PMARINEPID_ITER_LEN  pMarinePID      0.00212      
+3.565           PMARINEPID_ITER_GAP  pMarinePID      1.00566      
+3.565           DESIRED_THRUST       pMarinePID      0.00000      
+3.565           PMARINEPID_ITER_LEN  pMarinePID      0.00140      
+3.605           UMEMWATCH_ITER_GAP   uMemWatch       1.00046      
+3.605           UMEMWATCH_ITER_LEN   uMemWatch       0.00007      
+3.609           NAV_X                uSimMarine      0.00000      
+3.609           NAV_Y                uSimMarine      -20.00000    
+3.609           NAV_LAT              uSimMarine      43.82512     
+3.609           NAV_LONG             uSimMarine      -70.33040    
+3.609           NAV_HEADING          uSimMarine      180.00000    
+3.609           NAV_SPEED            uSimMarine      0.00000      
+3.609           NAV_DEPTH            uSimMarine      0.00000      
+3.609           SIMULATION_MODE      uSimMarine      TRUE 
+3.609           NAV_Z                uSimMarine      -0.00000     
+3.609           NAV_PITCH            uSimMarine      0.00000      
+3.609           NAV_YAW              uSimMarine      -3.14159     
+3.609           TRUE_X               uSimMarine      0.00000      
+3.609           TRUE_Y               uSimMarine      -20.00000    
+3.609           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+3.609           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+3.609           USIMMARINE_ITER_GAP  uSimMarine      1.00074      
+3.609           USIMMARINE_ITER_LEN  uSimMarine      0.00036      
+3.616           PMARINEPID_ITER_GAP  pMarinePID      1.00402      
+3.616           DESIRED_THRUST       pMarinePID      0.00000      
+3.616           PMARINEPID_ITER_LEN  pMarinePID      0.00138      
+3.655           PNODEREPORTER_ITER_GAP pNodeReporter   1.00049      
+3.655           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=3,YAW=-1.5707963,TIME=1592391460.98,LENGTH=4 
+3.655           PNODEREPORTER_ITER_LEN pNodeReporter   0.00013      
+3.666           PMARINEPID_ITER_GAP  pMarinePID      1.00360      
+3.666           DESIRED_THRUST       pMarinePID      0.00000      
+3.666           PMARINEPID_ITER_LEN  pMarinePID      0.00184      
+3.703           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00104      
+3.703           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00002      
+3.716           PMARINEPID_ITER_GAP  pMarinePID      1.00422      
+3.716           DESIRED_THRUST       pMarinePID      0.00000      
+3.716           PMARINEPID_ITER_LEN  pMarinePID      0.00162      
+3.759           PHELMIVP_ITER_GAP    pHelmIvP        1.00200      
+3.759           IVPHELM_CPU          pHelmIvP        0.25252      
+3.759           IVPHELM_STATE        pHelmIvP        PARK 
+3.759           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+3.759           PHELMIVP_ITER_LEN    pHelmIvP        0.00009      
+3.766           PMARINEPID_ITER_GAP  pMarinePID      1.00340      
+3.766           DESIRED_THRUST       pMarinePID      0.00000      
+3.766           PMARINEPID_ITER_LEN  pMarinePID      0.00114      
+3.816           PMARINEPID_ITER_GAP  pMarinePID      1.00334      
+3.816           DESIRED_THRUST       pMarinePID      0.00000      
+3.816           PMARINEPID_ITER_LEN  pMarinePID      0.00140      
+3.855           UMEMWATCH_ITER_GAP   uMemWatch       1.00108      
+3.855           UMEMWATCH_ITER_LEN   uMemWatch       0.00006      
+3.860           NAV_X                uSimMarine      0.00000      
+3.860           NAV_Y                uSimMarine      -20.00000    
+3.860           NAV_LAT              uSimMarine      43.82512     
+3.860           NAV_LONG             uSimMarine      -70.33040    
+3.860           NAV_HEADING          uSimMarine      180.00000    
+3.860           NAV_SPEED            uSimMarine      0.00000      
+3.860           NAV_DEPTH            uSimMarine      0.00000      
+3.860           SIMULATION_MODE      uSimMarine      TRUE 
+3.860           NAV_Z                uSimMarine      -0.00000     
+3.860           NAV_PITCH            uSimMarine      0.00000      
+3.860           NAV_YAW              uSimMarine      -3.14159     
+3.860           TRUE_X               uSimMarine      0.00000      
+3.860           TRUE_Y               uSimMarine      -20.00000    
+3.860           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+3.860           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+3.860           USIMMARINE_ITER_GAP  uSimMarine      1.00349      
+3.860           USIMMARINE_ITER_LEN  uSimMarine      0.00028      
+3.866           PMARINEPID_ITER_GAP  pMarinePID      1.00380      
+3.867           DESIRED_THRUST       pMarinePID      0.00000      
+3.867           PMARINEPID_ITER_LEN  pMarinePID      0.00110      
+3.917           PMARINEPID_ITER_GAP  pMarinePID      1.00270      
+3.917           DESIRED_THRUST       pMarinePID      0.00000      
+3.917           PMARINEPID_ITER_LEN  pMarinePID      0.00138      
+3.954           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00241      
+3.954           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00008      
+3.967           PMARINEPID_ITER_GAP  pMarinePID      1.00370      
+3.967           DESIRED_THRUST       pMarinePID      0.00000      
+3.967           PMARINEPID_ITER_LEN  pMarinePID      0.00120      
+4.009           PHELMIVP_ITER_GAP    pHelmIvP        1.00065      
+4.009           IVPHELM_CPU          pHelmIvP        0.25252      
+4.009           IVPHELM_STATE        pHelmIvP        PARK 
+4.009           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+4.009           PHELMIVP_ITER_LEN    pHelmIvP        0.00012      
+4.017           PMARINEPID_ITER_GAP  pMarinePID      1.00336      
+4.017           DESIRED_THRUST       pMarinePID      0.00000      
+4.017           PMARINEPID_ITER_LEN  pMarinePID      0.00128      
+4.067           PMARINEPID_ITER_GAP  pMarinePID      1.00352      
+4.067           DESIRED_THRUST       pMarinePID      0.00000      
+4.067           PMARINEPID_ITER_LEN  pMarinePID      0.00144      
+4.091           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+4.091           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+4.105           UMEMWATCH_ITER_GAP   uMemWatch       1.00079      
+4.110           NAV_X                uSimMarine      0.00000      
+4.110           NAV_Y                uSimMarine      -20.00000    
+4.110           NAV_LAT              uSimMarine      43.82512     
+4.110           NAV_LONG             uSimMarine      -70.33040    
+4.110           NAV_HEADING          uSimMarine      180.00000    
+4.110           NAV_SPEED            uSimMarine      0.00000      
+4.110           NAV_DEPTH            uSimMarine      0.00000      
+4.110           SIMULATION_MODE      uSimMarine      TRUE 
+4.110           NAV_Z                uSimMarine      -0.00000     
+4.110           NAV_PITCH            uSimMarine      0.00000      
+4.110           NAV_YAW              uSimMarine      -3.14159     
+4.110           TRUE_X               uSimMarine      0.00000      
+4.110           TRUE_Y               uSimMarine      -20.00000    
+4.110           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+4.110           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+4.110           USIMMARINE_ITER_GAP  uSimMarine      1.00079      
+4.110           USIMMARINE_ITER_LEN  uSimMarine      0.00046      
+4.117           PMARINEPID_ITER_GAP  pMarinePID      1.00330      
+4.117           DESIRED_THRUST       pMarinePID      0.00000      
+4.117           PMARINEPID_ITER_LEN  pMarinePID      0.00142      
+4.127           UMEMWATCH_ITER_LEN   uMemWatch       0.08722      
+4.156           PNODEREPORTER_ITER_GAP pNodeReporter   1.00079      
+4.156           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=4,YAW=-1.5707963,TIME=1592391461.48,LENGTH=4 
+4.156           PNODEREPORTER_ITER_LEN pNodeReporter   0.00007      
+-317.223        PMARINEVIEWER_PID    pMarineViewer   3483.00000   
+-316.972        HELM_MAP_CLEAR       pMarineViewer   0.00000      
+-316.972        PMV_CONNECT          pMarineViewer   0.00000      
+-308.963        APPCAST_REQ_SHORESIDE pMarineViewer   node=shoreside,app=pMarineViewer,duration=3.0,key=pMarineViewer:shoresideapp,thresh=any 
+-308.963        APPCAST_REQ          pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        APPCAST_REQ_ALL      pMarineViewer   node=all,app=all,duration=3.0,key=pMarineViewer:shoresidegen,thresh=run_warning 
+-308.963        MOOS_MANUAL_OVERRIDE pMarineViewer   false 
+-307.962        PMARINEVIEWER_ITER_GAP pMarineViewer   1.00047      
+-307.962        PMARINEVIEWER_ITER_LEN pMarineViewer   0.00006      
+0.652           LOGGER_DIRECTORY     pLogger         ./MOOSLog_17_6_2020_____06_57_37 
+1.104           USM_FSUMMARY         uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+1.104           USM_DRIFT_SUMMARY    uSimMarine      ang=0, mag=0, xmag=0, ymag=0 
+1.253           PHELMIVP_PID         pHelmIvP        13013.00000  
+1.255           DEPLOY               pHelmIvP:HELM_VAR_INIT false 
+1.255           RETURN               pHelmIvP:HELM_VAR_INIT false 
+1.255           IVPHELM_REGISTER     pHelmIvP        SPEED_UPDATE 
+1.255           PLOGGER_CMD          pHelmIvP        COPY_FILE_REQUEST = alpha.bhv 
+1.255           IVPHELM_DOMAIN       pHelmIvP        speed,0,4,41:course,0,359,360 
+1.255           IVPHELM_MODESET      pHelmIvP         
+1.303           DB_EVENT             MOOSDB_shoreside connected=uMemWatch 
+1.450           PROC_WATCH_TIME_WARP uProcessWatch   1.00000      
+1.451           PROC_WATCH_EVENT     uProcessWatch   Noted to be present: [pLogger] 
+1.505           IVPHELM_SKEW         pHelmIvP        Helm ignores MOOS msg due to skew: MOOS_MANUAL_OVERRIDE Source=pMarineViewer Skew=310.47 curr_time: 1592391458.827 
+1.506           IVPHELM_ALLSTOP      pHelmIvP        ManualOverride 
+1.506           DESIRED_SPEED        pHelmIvP        0.00000      
+1.506           DESIRED_HEADING      pHelmIvP        0.00000      
+1.653           PNODEREPORTER_PID    pNodeReporter   13033.00000  
+1.701           PROC_WATCH_SUMMARY   uProcessWatch   All Present 
+1.701           PROC_WATCH_FULL_SUMMARY uProcessWatch   pShare(1/0),uMemWatch(1/0),pNodeReporter(1/0),pHelmIvP(1/0),pMarinePID(1/0),uSimMarine(1/0),pLogger(1/0) 
+2.154           NODE_REPORT_LOCAL_FIRST pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,YAW=-1.5707963,TIME=1592391459.48,LENGTH=4 
+2.154           APPCAST              pNodeReporter   proc=pNodeReporter!@#iter=1!@#node=alpha!@#iter=1!@#messages=Paused: false!@Vehicle Configuration:!@----------------------------!@     Vehicle name: alpha!@     Vehicle type: kayak!@   Vehicle length: 4.0!@!@Blackout Configuration:!@----------------------------!@Blackout interval: 0.00!@Blackout variance: 0.00!@!@AltNav Config and Status:!@----------------------------!@   ALT_NAV_PREFIX: !@     ALT_NAV_NAME: _GT!@ ALT_NAV_POSTINGS: 0!@!@Node Report Summary:!@----------------------------!@Reports Posted: 1!@ Latest Report: NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,!@                LAT=43.82511993,LON=-70.33039599,TYPE=kayak,!@                COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,!@                YAW=-1.5707963,TIME=1592391459.48,LENGTH=4!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+3.082           DB_TIME              MOOSDB_shoreside 1592391460.40451 
+3.082           DB_UPTIME            MOOSDB_shoreside 321.28086    
+3.082           DB_CLIENTS           MOOSDB_shoreside uMemWatch,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,uSimMarine,pShare,pLogger, 
+3.084           DB_QOS               MOOSDB_shoreside pHelmIvP=0:0.167131:0.109196:0,pLogger=0:0.211:0.0519753:0,pMarinePID=0:0.267029:0.123024:0,pNodeReporter=0:0.137091:0.121117:0,pShare=0.121117:0.218868:0.0391006:0.162172,uMemWatch=0:0.155926:0.0898838:0,uProcessWatch=0:0.234842:0.147104:0,uSimMarine=0:0.191927:0.084877:0, 
+3.465           PID_REPORT           pMarinePID      48:PID_SPEED:  (Want):0.00000 (Curr):0.00000 (Diff):0.00000 (Fctr):20.00000 THRUST:0.00000 
+3.465           DESIRED_RUDDER       pMarinePID      0.00000      
+3.515           MOOS_DEBUG           pMarinePID      Paused Due To Tardy HELM Input: THRUST=0 
+4.091           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+4.091           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+4.105           UMEMWATCH_ITER_GAP   uMemWatch       1.00079      
+4.110           NAV_DEPTH            uSimMarine      0.00000      
+4.110           NAV_HEADING          uSimMarine      180.00000    
+4.110           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+4.110           NAV_LAT              uSimMarine      43.82512     
+4.110           NAV_LONG             uSimMarine      -70.33040    
+4.110           NAV_PITCH            uSimMarine      0.00000      
+4.110           NAV_SPEED            uSimMarine      0.00000      
+4.110           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+4.110           NAV_X                uSimMarine      0.00000      
+4.110           NAV_Y                uSimMarine      -20.00000    
+4.110           NAV_YAW              uSimMarine      -3.14159     
+4.110           NAV_Z                uSimMarine      -0.00000     
+4.110           SIMULATION_MODE      uSimMarine      TRUE 
+4.110           TRUE_X               uSimMarine      0.00000      
+4.110           TRUE_Y               uSimMarine      -20.00000    
+4.110           USIMMARINE_ITER_GAP  uSimMarine      1.00079      
+4.110           USIMMARINE_ITER_LEN  uSimMarine      0.00046      
+4.127           PHELMIVP_MEM         uMemWatch       4.71200      
+4.127           UMEMWATCH_ITER_LEN   uMemWatch       0.08722      
+4.156           PNODEREPORTER_ITER_GAP pNodeReporter   1.00079      
+4.156           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=4,YAW=-1.5707963,TIME=1592391461.48,LENGTH=4 
+4.156           PNODEREPORTER_ITER_LEN pNodeReporter   0.00007      
+4.167           PMARINEPID_ITER_GAP  pMarinePID      1.00338      
+4.168           DESIRED_THRUST       pMarinePID      0.00000      
+4.168           PMARINEPID_ITER_LEN  pMarinePID      0.00190      
+4.204           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00081      
+4.204           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00081      
+4.204           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+4.204           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+4.218           PMARINEPID_ITER_GAP  pMarinePID      1.00398      
+4.218           PMARINEPID_ITER_GAP  pMarinePID      1.00398      
+4.218           DESIRED_THRUST       pMarinePID      0.00000      
+4.218           DESIRED_THRUST       pMarinePID      0.00000      
+4.218           PMARINEPID_ITER_LEN  pMarinePID      0.00150      
+4.218           PMARINEPID_ITER_LEN  pMarinePID      0.00150      
+4.259           PHELMIVP_ITER_GAP    pHelmIvP        1.00142      
+4.259           PHELMIVP_ITER_GAP    pHelmIvP        1.00142      
+4.259           IVPHELM_CPU          pHelmIvP        0.23413      
+4.259           IVPHELM_CPU          pHelmIvP        0.23413      
+4.259           IVPHELM_STATE        pHelmIvP        PARK 
+4.259           IVPHELM_STATE        pHelmIvP        PARK 
+4.259           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+4.259           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+4.259           PHELMIVP_ITER_LEN    pHelmIvP        0.00007      
+4.259           PHELMIVP_ITER_LEN    pHelmIvP        0.00007      
+4.268           PMARINEPID_ITER_GAP  pMarinePID      1.00370      
+4.268           DESIRED_THRUST       pMarinePID      0.00000      
+4.268           PMARINEPID_ITER_LEN  pMarinePID      0.00090      
+4.318           PMARINEPID_ITER_GAP  pMarinePID      1.00272      
+4.318           DESIRED_THRUST       pMarinePID      0.00000      
+4.318           PMARINEPID_ITER_LEN  pMarinePID      0.00156      
+4.356           UMEMWATCH_ITER_GAP   uMemWatch       1.00372      
+4.356           UMEMWATCH_ITER_LEN   uMemWatch       0.00005      
+4.360           NAV_X                uSimMarine      0.00000      
+4.360           NAV_Y                uSimMarine      -20.00000    
+4.360           NAV_LAT              uSimMarine      43.82512     
+4.360           NAV_LONG             uSimMarine      -70.33040    
+4.360           NAV_HEADING          uSimMarine      180.00000    
+4.360           NAV_SPEED            uSimMarine      0.00000      
+4.360           NAV_DEPTH            uSimMarine      0.00000      
+4.360           SIMULATION_MODE      uSimMarine      TRUE 
+4.360           NAV_Z                uSimMarine      -0.00000     
+4.360           NAV_PITCH            uSimMarine      0.00000      
+4.360           NAV_YAW              uSimMarine      -3.14159     
+4.360           TRUE_X               uSimMarine      0.00000      
+4.360           TRUE_Y               uSimMarine      -20.00000    
+4.360           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+4.360           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+4.360           USIMMARINE_ITER_GAP  uSimMarine      1.00294      
+4.360           USIMMARINE_ITER_LEN  uSimMarine      0.00016      
+4.368           PMARINEPID_ITER_GAP  pMarinePID      1.00418      
+4.368           DESIRED_THRUST       pMarinePID      0.00000      
+4.368           PMARINEPID_ITER_LEN  pMarinePID      0.00074      
+4.418           PMARINEPID_ITER_GAP  pMarinePID      1.00248      
+4.418           DESIRED_THRUST       pMarinePID      0.00000      
+4.418           PMARINEPID_ITER_LEN  pMarinePID      0.00138      
+4.454           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00183      
+4.454           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00009      
+4.468           PMARINEPID_ITER_GAP  pMarinePID      1.00300      
+4.469           DESIRED_THRUST       pMarinePID      0.00000      
+4.469           PMARINEPID_ITER_LEN  pMarinePID      0.00092      
+4.509           PHELMIVP_ITER_GAP    pHelmIvP        1.00049      
+4.509           IVPHELM_CPU          pHelmIvP        0.23413      
+4.509           IVPHELM_STATE        pHelmIvP        PARK 
+4.509           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+4.509           PHELMIVP_ITER_LEN    pHelmIvP        0.00010      
+4.519           PMARINEPID_ITER_GAP  pMarinePID      1.00282      
+4.519           DESIRED_THRUST       pMarinePID      0.00000      
+4.519           PMARINEPID_ITER_LEN  pMarinePID      0.00092      
+4.569           PMARINEPID_ITER_GAP  pMarinePID      1.00318      
+4.569           DESIRED_THRUST       pMarinePID      0.00000      
+4.569           PMARINEPID_ITER_LEN  pMarinePID      0.00146      
+4.606           UMEMWATCH_ITER_GAP   uMemWatch       1.00047      
+4.606           UMEMWATCH_ITER_LEN   uMemWatch       0.00008      
+4.611           NAV_X                uSimMarine      0.00000      
+4.611           NAV_Y                uSimMarine      -20.00000    
+4.611           NAV_LAT              uSimMarine      43.82512     
+4.611           NAV_LONG             uSimMarine      -70.33040    
+4.611           NAV_HEADING          uSimMarine      180.00000    
+4.611           NAV_SPEED            uSimMarine      0.00000      
+4.611           NAV_DEPTH            uSimMarine      0.00000      
+4.611           SIMULATION_MODE      uSimMarine      TRUE 
+4.611           NAV_Z                uSimMarine      -0.00000     
+4.611           NAV_PITCH            uSimMarine      0.00000      
+4.611           NAV_YAW              uSimMarine      -3.14159     
+4.611           TRUE_X               uSimMarine      0.00000      
+4.611           TRUE_Y               uSimMarine      -20.00000    
+4.611           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+4.611           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+4.611           USIMMARINE_ITER_GAP  uSimMarine      1.00062      
+4.611           USIMMARINE_ITER_LEN  uSimMarine      0.00027      
+4.619           PMARINEPID_ITER_GAP  pMarinePID      1.00404      
+4.619           DESIRED_THRUST       pMarinePID      0.00000      
+4.619           PMARINEPID_ITER_LEN  pMarinePID      0.00134      
+4.656           PNODEREPORTER_ITER_GAP pNodeReporter   1.00055      
+4.656           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=5,YAW=-1.5707963,TIME=1592391461.98,LENGTH=4 
+4.656           PNODEREPORTER_ITER_LEN pNodeReporter   0.00013      
+4.669           PMARINEPID_ITER_GAP  pMarinePID      1.00326      
+4.669           DESIRED_THRUST       pMarinePID      0.00000      
+4.669           PMARINEPID_ITER_LEN  pMarinePID      0.00092      
+4.705           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00048      
+4.705           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00006      
+4.719           PMARINEPID_ITER_GAP  pMarinePID      1.00300      
+4.719           DESIRED_THRUST       pMarinePID      0.00000      
+4.719           PMARINEPID_ITER_LEN  pMarinePID      0.00130      
+4.760           PHELMIVP_ITER_GAP    pHelmIvP        1.00146      
+4.760           IVPHELM_CPU          pHelmIvP        0.19594      
+4.760           IVPHELM_STATE        pHelmIvP        PARK 
+4.760           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+4.760           PHELMIVP_ITER_LEN    pHelmIvP        0.00009      
+4.769           PMARINEPID_ITER_GAP  pMarinePID      1.00336      
+4.770           DESIRED_THRUST       pMarinePID      0.00000      
+4.770           PMARINEPID_ITER_LEN  pMarinePID      0.00092      
+4.820           PMARINEPID_ITER_GAP  pMarinePID      1.00224      
+4.820           DESIRED_THRUST       pMarinePID      0.00000      
+4.820           PMARINEPID_ITER_LEN  pMarinePID      0.00164      
+4.857           UMEMWATCH_ITER_GAP   uMemWatch       1.00106      
+4.857           UMEMWATCH_ITER_LEN   uMemWatch       0.00009      
+4.861           NAV_X                uSimMarine      0.00000      
+4.861           NAV_Y                uSimMarine      -20.00000    
+4.861           NAV_LAT              uSimMarine      43.82512     
+4.861           NAV_LONG             uSimMarine      -70.33040    
+4.861           NAV_HEADING          uSimMarine      180.00000    
+4.861           NAV_SPEED            uSimMarine      0.00000      
+4.861           NAV_DEPTH            uSimMarine      0.00000      
+4.861           SIMULATION_MODE      uSimMarine      TRUE 
+4.861           NAV_Z                uSimMarine      -0.00000     
+4.861           NAV_PITCH            uSimMarine      0.00000      
+4.861           NAV_YAW              uSimMarine      -3.14159     
+4.861           TRUE_X               uSimMarine      0.00000      
+4.861           TRUE_Y               uSimMarine      -20.00000    
+4.861           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+4.861           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+4.861           USIMMARINE_ITER_GAP  uSimMarine      1.00311      
+4.861           USIMMARINE_ITER_LEN  uSimMarine      0.00027      
+4.870           PMARINEPID_ITER_GAP  pMarinePID      1.00446      
+4.870           DESIRED_THRUST       pMarinePID      0.00000      
+4.870           PMARINEPID_ITER_LEN  pMarinePID      0.00162      
+4.920           PMARINEPID_ITER_GAP  pMarinePID      1.00388      
+4.920           DESIRED_THRUST       pMarinePID      0.00000      
+4.920           PMARINEPID_ITER_LEN  pMarinePID      0.00146      
+4.955           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00211      
+4.955           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00005      
+4.970           PMARINEPID_ITER_GAP  pMarinePID      1.00308      
+4.970           DESIRED_THRUST       pMarinePID      0.00000      
+4.970           PMARINEPID_ITER_LEN  pMarinePID      0.00188      
+5.010           PHELMIVP_ITER_GAP    pHelmIvP        1.00064      
+5.010           IVPHELM_CPU          pHelmIvP        0.19594      
+5.010           IVPHELM_STATE        pHelmIvP        PARK 
+5.010           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+5.010           PHELMIVP_ITER_LEN    pHelmIvP        0.00011      
+5.020           PMARINEPID_ITER_GAP  pMarinePID      1.00410      
+5.020           DESIRED_THRUST       pMarinePID      0.00000      
+5.020           PMARINEPID_ITER_LEN  pMarinePID      0.00222      
+5.071           PMARINEPID_ITER_GAP  pMarinePID      1.00458      
+5.071           DESIRED_THRUST       pMarinePID      0.00000      
+5.071           PMARINEPID_ITER_LEN  pMarinePID      0.00152      
+5.090           DB_TIME              MOOSDB_shoreside 1592391462.41247 
+5.090           DB_UPTIME            MOOSDB_shoreside 323.28882    
+5.090           DB_CLIENTS           MOOSDB_shoreside uMemWatch,pNodeReporter,uProcessWatch,pHelmIvP,pMarinePID,uSimMarine,pShare,pLogger, 
+5.092           DB_QOS               MOOSDB_shoreside pHelmIvP=0.132084:0.167131:0.109196:0.137281,pLogger=0.119925:0.211:0.0519753:0.135374,pMarinePID=0.082016:0.267029:0.082016:0.151634,pNodeReporter=0:0.137091:0.0610352:0,pShare=0.156164:0.218868:0.0391006:0.169182,uMemWatch=0:0.155926:0.0700951:0,uProcessWatch=0.128031:0.234842:0.128031:0.164413,uSimMarine=0.0998974:0.191927:0.084877:0.126553, 
+5.095           PSHARE_OUTPUT_SUMMARY pShare          DEPLOY->DEPLY:localhost:9201, MOOS_MANUAL_OVERRIDE->MOOS_MANUAL_OVERRIDE:localhost:9201, RETURN->RETURN:localhost:9201 
+5.095           PSHARE_INPUT_SUMMARY pShare          localhost:9200 
+5.107           UMEMWATCH_ITER_GAP   uMemWatch       1.00059      
+5.112           NAV_X                uSimMarine      0.00000      
+5.112           NAV_Y                uSimMarine      -20.00000    
+5.112           NAV_LAT              uSimMarine      43.82512     
+5.112           NAV_LONG             uSimMarine      -70.33040    
+5.112           NAV_HEADING          uSimMarine      180.00000    
+5.112           NAV_SPEED            uSimMarine      0.00000      
+5.112           NAV_DEPTH            uSimMarine      0.00000      
+5.112           SIMULATION_MODE      uSimMarine      TRUE 
+5.112           NAV_Z                uSimMarine      -0.00000     
+5.112           NAV_PITCH            uSimMarine      0.00000      
+5.112           NAV_YAW              uSimMarine      -3.14159     
+5.112           TRUE_X               uSimMarine      0.00000      
+5.112           TRUE_Y               uSimMarine      -20.00000    
+5.112           NAV_HEADING_OVER_GROUND uSimMarine      0.00000      
+5.112           NAV_SPEED_OVER_GROUND uSimMarine      0.00000      
+5.112           USIMMARINE_ITER_GAP  uSimMarine      1.00098      
+5.112           USIMMARINE_ITER_LEN  uSimMarine      0.00019      
+5.121           PMARINEPID_ITER_GAP  pMarinePID      1.00384      
+5.121           DESIRED_THRUST       pMarinePID      0.00000      
+5.121           PMARINEPID_ITER_LEN  pMarinePID      0.00050      
+5.126           PHELMIVP_MEM         uMemWatch       4.71200      
+5.126           UMEMWATCH_ITER_LEN   uMemWatch       0.07689      
+5.156           PNODEREPORTER_ITER_GAP pNodeReporter   1.00074      
+5.156           NODE_REPORT_LOCAL    pNodeReporter   NAME=alpha,X=0,Y=-20,SPD=0,HDG=180,DEP=0,LAT=43.82511993,LON=-70.33039599,TYPE=kayak,COLOR=yellow,MODE=PARK,ALLSTOP=ManualOverride,INDEX=6,YAW=-1.5707963,TIME=1592391462.48,LENGTH=4 
+5.156           PNODEREPORTER_ITER_LEN pNodeReporter   0.00007      
+5.171           PMARINEPID_ITER_GAP  pMarinePID      1.00296      
+5.171           DESIRED_THRUST       pMarinePID      0.00000      
+5.171           PMARINEPID_ITER_LEN  pMarinePID      0.00176      
+5.205           UPROCESSWATCH_ITER_GAP uProcessWatch   1.00091      
+5.205           UPROCESSWATCH_ITER_LEN uProcessWatch   0.00005      
+5.221           PMARINEPID_ITER_GAP  pMarinePID      1.00340      
+5.221           DESIRED_THRUST       pMarinePID      0.00000      
+5.221           PMARINEPID_ITER_LEN  pMarinePID      0.00088      
+5.260           PHELMIVP_ITER_GAP    pHelmIvP        1.00157      
+5.260           IVPHELM_CPU          pHelmIvP        0.26812      
+5.260           IVPHELM_STATE        pHelmIvP        PARK 
+5.260           IVPHELM_ALLSTOP_DEBUG pHelmIvP        ManualOverride 
+5.260           PHELMIVP_ITER_LEN    pHelmIvP        0.00005      
+5.271           PMARINEPID_ITER_GAP  pMarinePID      1.00186      
+5.271           DESIRED_THRUST       pMarinePID      0.00000      
+5.271           PMARINEPID_ITER_LEN  pMarinePID      0.00100      
